@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/config-tool.ddev.site\/media\/8\/edit?_format=hal_json"
+            "href": "https:\/\/config-tool.ddev.site\/media\/1\/edit?_format=hal_json"
         },
         "type": {
             "href": "https:\/\/config-tool.ddev.site\/rest\/type\/media\/translite"
@@ -27,7 +27,7 @@
     },
     "mid": [
         {
-            "value": 8
+            "value": 1
         }
     ],
     "uuid": [
@@ -137,7 +137,7 @@
     ],
     "changed": [
         {
-            "value": "2024-09-09T21:58:27+00:00",
+            "value": "2024-09-21T09:24:47+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -155,6 +155,6 @@
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1726909734
+        "export_timestamp": 1735763803
     }
 }

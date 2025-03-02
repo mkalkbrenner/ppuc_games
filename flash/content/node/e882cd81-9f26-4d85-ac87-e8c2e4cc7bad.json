@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/config-tool.ddev.site\/node\/220?_format=hal_json"
+            "href": "https:\/\/config-tool.ddev.site\/node\/15?_format=hal_json"
         },
         "type": {
             "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/addressable_leds"
@@ -19,19 +19,19 @@
         ],
         "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/addressable_leds\/field_i_o_board": [
             {
-                "href": "https:\/\/config-tool.ddev.site\/node\/147?_format=hal_json",
+                "href": "https:\/\/config-tool.ddev.site\/node\/47?_format=hal_json",
                 "lang": "en"
             }
         ],
         "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/addressable_leds\/field_led_type": [
             {
-                "href": "https:\/\/config-tool.ddev.site\/taxonomy\/term\/2?_format=hal_json"
+                "href": "https:\/\/config-tool.ddev.site\/taxonomy\/term\/28?_format=hal_json"
             }
         ]
     },
     "nid": [
         {
-            "value": 220
+            "value": 15
         }
     ],
     "uuid": [
@@ -96,7 +96,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/node\/147?_format=hal_json"
+                        "href": "https:\/\/config-tool.ddev.site\/node\/47?_format=hal_json"
                     },
                     "type": {
                         "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/i_o_board"
@@ -114,7 +114,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/taxonomy\/term\/2?_format=hal_json"
+                        "href": "https:\/\/config-tool.ddev.site\/taxonomy\/term\/28?_format=hal_json"
                     },
                     "type": {
                         "href": "https:\/\/config-tool.ddev.site\/rest\/type\/taxonomy_term\/led_type"
@@ -122,7 +122,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "18600d4c-4b61-4b73-b720-e64bd81572bd"
+                        "value": "f5254f34-96df-4c51-a3f2-d58a7233ae1e"
                     }
                 ]
             }
@@ -136,7 +136,7 @@
     ],
     "title": [
         {
-            "value": "Flash Inserts",
+            "value": "Flash Playfield Lamps",
             "lang": "en"
         }
     ],
@@ -149,7 +149,7 @@
     ],
     "changed": [
         {
-            "value": "2024-09-20T21:50:02+00:00",
+            "value": "2024-10-09T20:59:01+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -185,7 +185,12 @@
     ],
     "field_amount_leds": [
         {
-            "value": 50
+            "value": 51
+        }
+    ],
+    "field_brightness": [
+        {
+            "value": 128
         }
     ],
     "field_light_up": [
@@ -200,6 +205,6 @@
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1726909734
+        "export_timestamp": 1735763803
     }
 }

@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/config-tool.ddev.site\/node\/148?_format=hal_json"
+            "href": "https:\/\/config-tool.ddev.site\/node\/44?_format=hal_json"
         },
         "type": {
             "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/pwm_device"
@@ -19,12 +19,12 @@
         ],
         "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/pwm_device\/field_fast_activation_switch": [
             {
-                "href": "https:\/\/config-tool.ddev.site\/node\/149?_format=hal_json"
+                "href": "https:\/\/config-tool.ddev.site\/node\/37?_format=hal_json"
             }
         ],
         "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/pwm_device\/field_i_o_board": [
             {
-                "href": "https:\/\/config-tool.ddev.site\/node\/145?_format=hal_json",
+                "href": "https:\/\/config-tool.ddev.site\/node\/30?_format=hal_json",
                 "lang": "en"
             }
         ],
@@ -36,7 +36,7 @@
     },
     "nid": [
         {
-            "value": 148
+            "value": 44
         }
     ],
     "uuid": [
@@ -101,7 +101,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/node\/149?_format=hal_json"
+                        "href": "https:\/\/config-tool.ddev.site\/node\/37?_format=hal_json"
                     },
                     "type": {
                         "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/switch"
@@ -118,7 +118,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/node\/145?_format=hal_json"
+                        "href": "https:\/\/config-tool.ddev.site\/node\/30?_format=hal_json"
                     },
                     "type": {
                         "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/i_o_board"
@@ -171,7 +171,7 @@
     ],
     "changed": [
         {
-            "value": "2024-09-17T09:10:42+00:00",
+            "value": "2024-10-05T14:19:33+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -200,6 +200,16 @@
             "lang": "en"
         }
     ],
+    "field_hold_power": [
+        {
+            "value": 96
+        }
+    ],
+    "field_hold_power_activation_time": [
+        {
+            "value": 100
+        }
+    ],
     "field_max_pulse_time": [
         {
             "value": 0
@@ -212,22 +222,22 @@
     ],
     "field_number": [
         {
-            "value": 103,
+            "value": 141,
             "lang": "en"
         }
     ],
     "field_pin": [
         {
-            "value": 17,
+            "value": 20,
             "lang": "en"
         }
     ],
     "field_power": [
         {
-            "value": 255
+            "value": 152
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1726909734
+        "export_timestamp": 1735763803
     }
 }

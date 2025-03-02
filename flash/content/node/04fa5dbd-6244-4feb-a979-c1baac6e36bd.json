@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/config-tool.ddev.site\/node\/154?_format=hal_json"
+            "href": "https:\/\/config-tool.ddev.site\/node\/39?_format=hal_json"
         },
         "type": {
             "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/addressable_leds"
@@ -19,7 +19,7 @@
         ],
         "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/addressable_leds\/field_i_o_board": [
             {
-                "href": "https:\/\/config-tool.ddev.site\/node\/145?_format=hal_json",
+                "href": "https:\/\/config-tool.ddev.site\/node\/30?_format=hal_json",
                 "lang": "en"
             }
         ],
@@ -31,7 +31,7 @@
     },
     "nid": [
         {
-            "value": 154
+            "value": 39
         }
     ],
     "uuid": [
@@ -96,7 +96,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/node\/145?_format=hal_json"
+                        "href": "https:\/\/config-tool.ddev.site\/node\/30?_format=hal_json"
                     },
                     "type": {
                         "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/i_o_board"
@@ -149,7 +149,7 @@
     ],
     "changed": [
         {
-            "value": "2024-09-17T09:15:03+00:00",
+            "value": "2024-10-09T20:43:16+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -185,7 +185,12 @@
     ],
     "field_amount_leds": [
         {
-            "value": 42
+            "value": 31
+        }
+    ],
+    "field_brightness": [
+        {
+            "value": 196
         }
     ],
     "field_light_up": [
@@ -200,6 +205,6 @@
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1726909734
+        "export_timestamp": 1735763803
     }
 }

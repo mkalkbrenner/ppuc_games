@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/config-tool.ddev.site\/node\/175?_format=hal_json"
+            "href": "https:\/\/config-tool.ddev.site\/node\/20?_format=hal_json"
         },
         "type": {
             "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/switch"
@@ -19,13 +19,13 @@
         ],
         "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/switch\/field_i_o_board": [
             {
-                "href": "https:\/\/config-tool.ddev.site\/node\/147?_format=hal_json"
+                "href": "https:\/\/config-tool.ddev.site\/node\/47?_format=hal_json"
             }
         ]
     },
     "nid": [
         {
-            "value": 175
+            "value": 20
         }
     ],
     "uuid": [
@@ -90,7 +90,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/node\/147?_format=hal_json"
+                        "href": "https:\/\/config-tool.ddev.site\/node\/47?_format=hal_json"
                     },
                     "type": {
                         "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/i_o_board"
@@ -125,7 +125,7 @@
     ],
     "changed": [
         {
-            "value": "2024-09-20T19:11:59+00:00",
+            "value": "2024-09-21T09:24:47+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -166,6 +166,6 @@
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1726909734
+        "export_timestamp": 1735763803
     }
 }

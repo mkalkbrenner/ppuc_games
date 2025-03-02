@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/config-tool.ddev.site\/node\/158?_format=hal_json"
+            "href": "https:\/\/config-tool.ddev.site\/node\/80?_format=hal_json"
         },
         "type": {
             "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/addressable_led"
@@ -24,13 +24,13 @@
         ],
         "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/addressable_led\/field_string": [
             {
-                "href": "https:\/\/config-tool.ddev.site\/node\/154?_format=hal_json"
+                "href": "https:\/\/config-tool.ddev.site\/node\/39?_format=hal_json"
             }
         ]
     },
     "nid": [
         {
-            "value": 158
+            "value": 80
         }
     ],
     "uuid": [
@@ -112,7 +112,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/node\/154?_format=hal_json"
+                        "href": "https:\/\/config-tool.ddev.site\/node\/39?_format=hal_json"
                     },
                     "type": {
                         "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/addressable_leds"
@@ -134,7 +134,7 @@
     ],
     "title": [
         {
-            "value": "Flash GI Right Sling Upper",
+            "value": "Flash GI Right Kicker Upper",
             "lang": "en"
         }
     ],
@@ -147,7 +147,7 @@
     ],
     "changed": [
         {
-            "value": "2024-09-17T12:20:05+00:00",
+            "value": "2024-09-25T12:29:57+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -176,11 +176,6 @@
             "lang": "en"
         }
     ],
-    "field_brightness": [
-        {
-            "value": 128
-        }
-    ],
     "field_color": [
         {
             "color": "99C1F1",
@@ -198,12 +193,7 @@
             "value": 3
         }
     ],
-    "field_triplet_position": [
-        {
-            "value": 1
-        }
-    ],
     "_dcd_metadata": {
-        "export_timestamp": 1726909734
+        "export_timestamp": 1735763803
     }
 }

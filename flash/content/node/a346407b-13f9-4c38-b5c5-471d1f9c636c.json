@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/config-tool.ddev.site\/node\/145?_format=hal_json"
+            "href": "https:\/\/config-tool.ddev.site\/node\/30?_format=hal_json"
         },
         "type": {
             "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/i_o_board"
@@ -19,7 +19,7 @@
         ],
         "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/i_o_board\/field_game": [
             {
-                "href": "https:\/\/config-tool.ddev.site\/node\/144?_format=hal_json"
+                "href": "https:\/\/config-tool.ddev.site\/node\/55?_format=hal_json"
             }
         ],
         "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/i_o_board\/field_io_board_type": [
@@ -30,7 +30,7 @@
     },
     "nid": [
         {
-            "value": 145
+            "value": 30
         }
     ],
     "uuid": [
@@ -95,7 +95,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/node\/144?_format=hal_json"
+                        "href": "https:\/\/config-tool.ddev.site\/node\/55?_format=hal_json"
                     },
                     "type": {
                         "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/game"
@@ -147,7 +147,7 @@
     ],
     "changed": [
         {
-            "value": "2024-09-17T09:00:07+00:00",
+            "value": "2024-09-21T09:24:47+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -182,6 +182,6 @@
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1726909734
+        "export_timestamp": 1735763803
     }
 }
