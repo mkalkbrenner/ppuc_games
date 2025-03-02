@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/config-tool.ddev.site\/node\/98?_format=hal_json"
+            "href": "https:\/\/config-tool.ddev.site\/node\/5?_format=hal_json"
         },
         "type": {
             "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/pwm_device"
@@ -19,12 +19,12 @@
         ],
         "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/pwm_device\/field_fast_activation_switch": [
             {
-                "href": "https:\/\/config-tool.ddev.site\/node\/82?_format=hal_json"
+                "href": "https:\/\/config-tool.ddev.site\/node\/152?_format=hal_json"
             }
         ],
         "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/pwm_device\/field_i_o_board": [
             {
-                "href": "https:\/\/config-tool.ddev.site\/node\/30?_format=hal_json",
+                "href": "https:\/\/config-tool.ddev.site\/node\/55?_format=hal_json",
                 "lang": "en"
             }
         ],
@@ -36,7 +36,7 @@
     },
     "nid": [
         {
-            "value": 98
+            "value": 5
         }
     ],
     "uuid": [
@@ -101,7 +101,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/node\/82?_format=hal_json"
+                        "href": "https:\/\/config-tool.ddev.site\/node\/152?_format=hal_json"
                     },
                     "type": {
                         "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/switch"
@@ -118,7 +118,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/node\/30?_format=hal_json"
+                        "href": "https:\/\/config-tool.ddev.site\/node\/55?_format=hal_json"
                     },
                     "type": {
                         "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/i_o_board"
@@ -171,7 +171,7 @@
     ],
     "changed": [
         {
-            "value": "2024-10-03T18:16:34+00:00",
+            "value": "2025-03-02T18:43:21+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -228,6 +228,6 @@
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1735763803
+        "export_timestamp": 1740943613
     }
 }

@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/config-tool.ddev.site\/node\/53?_format=hal_json"
+            "href": "https:\/\/config-tool.ddev.site\/node\/97?_format=hal_json"
         },
         "type": {
             "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/switch"
@@ -19,13 +19,13 @@
         ],
         "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/switch\/field_i_o_board": [
             {
-                "href": "https:\/\/config-tool.ddev.site\/node\/47?_format=hal_json"
+                "href": "https:\/\/config-tool.ddev.site\/node\/89?_format=hal_json"
             }
         ]
     },
     "nid": [
         {
-            "value": 53
+            "value": 97
         }
     ],
     "uuid": [
@@ -90,7 +90,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/node\/47?_format=hal_json"
+                        "href": "https:\/\/config-tool.ddev.site\/node\/89?_format=hal_json"
                     },
                     "type": {
                         "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/i_o_board"
@@ -166,6 +166,6 @@
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1735763803
+        "export_timestamp": 1740943613
     }
 }

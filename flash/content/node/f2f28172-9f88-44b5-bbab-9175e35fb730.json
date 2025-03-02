@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/config-tool.ddev.site\/node\/140?_format=hal_json"
+            "href": "https:\/\/config-tool.ddev.site\/node\/71?_format=hal_json"
         },
         "type": {
             "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/pwm_device"
@@ -19,7 +19,7 @@
         ],
         "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/pwm_device\/field_i_o_board": [
             {
-                "href": "https:\/\/config-tool.ddev.site\/node\/47?_format=hal_json",
+                "href": "https:\/\/config-tool.ddev.site\/node\/89?_format=hal_json",
                 "lang": "en"
             }
         ],
@@ -31,7 +31,7 @@
     },
     "nid": [
         {
-            "value": 140
+            "value": 71
         }
     ],
     "uuid": [
@@ -96,7 +96,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/node\/47?_format=hal_json"
+                        "href": "https:\/\/config-tool.ddev.site\/node\/89?_format=hal_json"
                     },
                     "type": {
                         "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/i_o_board"
@@ -149,7 +149,7 @@
     ],
     "changed": [
         {
-            "value": "2024-10-03T18:15:43+00:00",
+            "value": "2025-03-02T18:43:22+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -183,6 +183,11 @@
             "value": 150
         }
     ],
+    "field_min_pulse_time": [
+        {
+            "value": 0
+        }
+    ],
     "field_number": [
         {
             "value": 2,
@@ -201,6 +206,6 @@
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1735763803
+        "export_timestamp": 1740943613
     }
 }
