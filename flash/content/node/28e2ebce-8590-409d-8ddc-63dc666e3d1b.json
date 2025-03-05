@@ -1,36 +1,41 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/config-tool.ddev.site\/node\/46?_format=hal_json"
+            "href": "https:\/\/config-tool.ddev.site\/node\/183?_format=hal_json"
         },
         "type": {
-            "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/switch"
+            "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/led_effect"
         },
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/switch\/revision_uid": [
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/led_effect\/revision_uid": [
             {
                 "href": "https:\/\/config-tool.ddev.site\/user\/2?_format=hal_json"
             }
         ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/switch\/uid": [
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/led_effect\/uid": [
             {
                 "href": "https:\/\/config-tool.ddev.site\/user\/2?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/switch\/field_i_o_board": [
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/led_effect\/field_effect": [
             {
-                "href": "https:\/\/config-tool.ddev.site\/node\/180?_format=hal_json"
+                "href": "https:\/\/config-tool.ddev.site\/taxonomy\/term\/45?_format=hal_json"
+            }
+        ],
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/led_effect\/field_string": [
+            {
+                "href": "https:\/\/config-tool.ddev.site\/node\/69?_format=hal_json"
             }
         ]
     },
     "nid": [
         {
-            "value": 46
+            "value": 183
         }
     ],
     "uuid": [
         {
-            "value": "e170a4ca-63fd-4a9a-b385-ff41a6b2d3ed"
+            "value": "28e2ebce-8590-409d-8ddc-63dc666e3d1b"
         }
     ],
     "langcode": [
@@ -41,17 +46,17 @@
     ],
     "type": [
         {
-            "target_id": "switch"
+            "target_id": "led_effect"
         }
     ],
     "revision_timestamp": [
         {
-            "value": "2024-09-25T14:15:45+00:00",
+            "value": "2025-03-04T17:26:48+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "_embedded": {
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/switch\/revision_uid": [
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/led_effect\/revision_uid": [
             {
                 "_links": {
                     "self": {
@@ -68,7 +73,7 @@
                 ]
             }
         ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/switch\/uid": [
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/led_effect\/uid": [
             {
                 "_links": {
                     "self": {
@@ -86,19 +91,36 @@
                 "lang": "en"
             }
         ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/switch\/field_i_o_board": [
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/led_effect\/field_effect": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/node\/180?_format=hal_json"
+                        "href": "https:\/\/config-tool.ddev.site\/taxonomy\/term\/45?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/i_o_board"
+                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/taxonomy_term\/fx_modes"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "c429c1a8-31fb-4e08-a019-5e3526a6bbc8"
+                        "value": "d527e92f-5c67-42ff-b14d-efb497ea0e73"
+                    }
+                ]
+            }
+        ],
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/led_effect\/field_string": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/config-tool.ddev.site\/node\/69?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/addressable_leds"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "04fa5dbd-6244-4feb-a979-c1baac6e36bd"
                     }
                 ]
             }
@@ -112,20 +134,20 @@
     ],
     "title": [
         {
-            "value": "Credit (Start) Button",
+            "value": "GI Flash",
             "lang": "en"
         }
     ],
     "created": [
         {
-            "value": "2024-09-25T14:15:45+00:00",
+            "value": "2025-03-04T17:26:48+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2025-03-03T18:37:06+00:00",
+            "value": "2025-03-04T17:26:48+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -154,15 +176,30 @@
             "lang": "en"
         }
     ],
-    "field_number": [
+    "field_color": [
         {
-            "value": 3,
-            "lang": "en"
+            "color": "0000FF",
+            "opacity": null
         }
     ],
-    "field_pin": [
+    "field_duration": [
         {
-            "value": 3
+            "value": 200
+        }
+    ],
+    "field_priority": [
+        {
+            "value": 1
+        }
+    ],
+    "field_reverse": [
+        {
+            "value": false
+        }
+    ],
+    "field_trigger": [
+        {
+            "value": "L6 ON"
         }
     ],
     "_dcd_metadata": {

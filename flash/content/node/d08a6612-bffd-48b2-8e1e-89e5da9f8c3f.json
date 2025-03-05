@@ -1,36 +1,41 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/config-tool.ddev.site\/node\/46?_format=hal_json"
+            "href": "https:\/\/config-tool.ddev.site\/node\/182?_format=hal_json"
         },
         "type": {
-            "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/switch"
+            "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/pwm_effect"
         },
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/switch\/revision_uid": [
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/pwm_effect\/revision_uid": [
             {
                 "href": "https:\/\/config-tool.ddev.site\/user\/2?_format=hal_json"
             }
         ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/switch\/uid": [
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/pwm_effect\/uid": [
             {
                 "href": "https:\/\/config-tool.ddev.site\/user\/2?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/switch\/field_i_o_board": [
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/pwm_effect\/field_pwm_device": [
             {
-                "href": "https:\/\/config-tool.ddev.site\/node\/180?_format=hal_json"
+                "href": "https:\/\/config-tool.ddev.site\/node\/181?_format=hal_json"
+            }
+        ],
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/pwm_effect\/field_pwm_effect": [
+            {
+                "href": "https:\/\/config-tool.ddev.site\/taxonomy\/term\/103?_format=hal_json"
             }
         ]
     },
     "nid": [
         {
-            "value": 46
+            "value": 182
         }
     ],
     "uuid": [
         {
-            "value": "e170a4ca-63fd-4a9a-b385-ff41a6b2d3ed"
+            "value": "d08a6612-bffd-48b2-8e1e-89e5da9f8c3f"
         }
     ],
     "langcode": [
@@ -41,17 +46,17 @@
     ],
     "type": [
         {
-            "target_id": "switch"
+            "target_id": "pwm_effect"
         }
     ],
     "revision_timestamp": [
         {
-            "value": "2024-09-25T14:15:45+00:00",
+            "value": "2025-03-04T17:08:13+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "_embedded": {
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/switch\/revision_uid": [
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/pwm_effect\/revision_uid": [
             {
                 "_links": {
                     "self": {
@@ -68,7 +73,7 @@
                 ]
             }
         ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/switch\/uid": [
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/pwm_effect\/uid": [
             {
                 "_links": {
                     "self": {
@@ -86,19 +91,36 @@
                 "lang": "en"
             }
         ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/switch\/field_i_o_board": [
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/pwm_effect\/field_pwm_device": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/node\/180?_format=hal_json"
+                        "href": "https:\/\/config-tool.ddev.site\/node\/181?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/i_o_board"
+                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/pwm_device"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "c429c1a8-31fb-4e08-a019-5e3526a6bbc8"
+                        "value": "63c0f1e7-f727-42f2-b68d-fe61c3a4195a"
+                    }
+                ]
+            }
+        ],
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/pwm_effect\/field_pwm_effect": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/config-tool.ddev.site\/taxonomy\/term\/103?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/taxonomy_term\/pwm_effects"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7515859b-925b-4509-be9f-3e73ff818bb8"
                     }
                 ]
             }
@@ -112,20 +134,20 @@
     ],
     "title": [
         {
-            "value": "Credit (Start) Button",
+            "value": "Jet Bumper Shaker",
             "lang": "en"
         }
     ],
     "created": [
         {
-            "value": "2024-09-25T14:15:45+00:00",
+            "value": "2025-03-04T17:08:13+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2025-03-03T18:37:06+00:00",
+            "value": "2025-03-05T22:21:06+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -154,15 +176,29 @@
             "lang": "en"
         }
     ],
-    "field_number": [
+    "field_frequency": [
         {
-            "value": 3,
-            "lang": "en"
+            "value": 4
         }
     ],
-    "field_pin": [
+    "field_max_intensity": [
         {
-            "value": 3
+            "value": 128
+        }
+    ],
+    "field_mode": [
+        {
+            "value": 0
+        }
+    ],
+    "field_priority": [
+        {
+            "value": 1
+        }
+    ],
+    "field_trigger": [
+        {
+            "value": "W18 ON \/ W19 ON \/ W20 ON"
         }
     ],
     "_dcd_metadata": {
