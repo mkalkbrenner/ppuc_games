@@ -1,0 +1,160 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/config-tool.ddev.site\/media\/6\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "https:\/\/config-tool.ddev.site\/rest\/type\/media\/lamp_locations"
+        },
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/media\/lamp_locations\/uid": [
+            {
+                "href": "https:\/\/config-tool.ddev.site\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/media\/lamp_locations\/thumbnail": [
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ],
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/media\/lamp_locations\/field_media_image_1": [
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 6
+        }
+    ],
+    "uuid": [
+        {
+            "value": "786c1c3a-83ec-402d-9288-6bd6ee4bc49d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "lamp_locations"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2025-03-12T19:21:32+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/media\/lamp_locations\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/config-tool.ddev.site\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f7760c1e-2497-482d-8e95-dd7f4f5e02e3"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/media\/lamp_locations\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fcd1e5e1-1433-411f-ba8a-a28eac82f193"
+                    }
+                ],
+                "lang": "en",
+                "alt": "",
+                "title": null,
+                "width": "1122",
+                "height": "885"
+            }
+        ],
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/media\/lamp_locations\/field_media_image_1": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fcd1e5e1-1433-411f-ba8a-a28eac82f193"
+                    }
+                ],
+                "lang": "en",
+                "alt": "",
+                "title": "",
+                "width": "1122",
+                "height": "885"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Flash_lamp_matrix.png",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2025-03-12T19:21:32+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2025-03-12T19:21:32+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_dcd_metadata": {
+        "export_timestamp": 1742601542
+    }
+}

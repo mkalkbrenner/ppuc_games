@@ -17,14 +17,39 @@
                 "lang": "en"
             }
         ],
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/game\/field_lamp_locations": [
+            {
+                "href": "https:\/\/config-tool.ddev.site\/media\/6\/edit?_format=hal_json"
+            }
+        ],
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/game\/field_manual": [
+            {
+                "href": "https:\/\/config-tool.ddev.site\/media\/5\/edit?_format=hal_json"
+            }
+        ],
         "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/game\/field_platform": [
             {
                 "href": "https:\/\/config-tool.ddev.site\/taxonomy\/term\/44?_format=hal_json"
             }
         ],
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/game\/field_rom": [
+            {
+                "href": "https:\/\/config-tool.ddev.site\/media\/4\/edit?_format=hal_json"
+            }
+        ],
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/game\/field_switch_locations": [
+            {
+                "href": "https:\/\/config-tool.ddev.site\/media\/7\/edit?_format=hal_json"
+            }
+        ],
         "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/game\/field_translite": [
             {
-                "href": "https:\/\/config-tool.ddev.site\/media\/1\/edit?_format=hal_json"
+                "href": "https:\/\/config-tool.ddev.site\/media\/3\/edit?_format=hal_json"
+            }
+        ],
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/game\/field_translite_in_game": [
+            {
+                "href": "https:\/\/config-tool.ddev.site\/media\/2\/edit?_format=hal_json"
             }
         ]
     },
@@ -91,6 +116,40 @@
                 "lang": "en"
             }
         ],
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/game\/field_lamp_locations": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/config-tool.ddev.site\/media\/6\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/media\/lamp_locations"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "786c1c3a-83ec-402d-9288-6bd6ee4bc49d"
+                    }
+                ]
+            }
+        ],
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/game\/field_manual": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/config-tool.ddev.site\/media\/5\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/media\/manual"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4417c1f7-4916-43d7-b2fe-f7b9715c7c39"
+                    }
+                ]
+            }
+        ],
         "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/game\/field_platform": [
             {
                 "_links": {
@@ -108,11 +167,45 @@
                 ]
             }
         ],
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/game\/field_rom": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/config-tool.ddev.site\/media\/4\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/media\/rom"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "41be0f6e-3ab8-4dd8-a123-a098ce9906ef"
+                    }
+                ]
+            }
+        ],
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/game\/field_switch_locations": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/config-tool.ddev.site\/media\/7\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/media\/switch_locations"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e6597af2-48c3-4bcb-9f6e-df60c0ee05d3"
+                    }
+                ]
+            }
+        ],
         "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/game\/field_translite": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/media\/1\/edit?_format=hal_json"
+                        "href": "https:\/\/config-tool.ddev.site\/media\/3\/edit?_format=hal_json"
                     },
                     "type": {
                         "href": "https:\/\/config-tool.ddev.site\/rest\/type\/media\/translite"
@@ -120,7 +213,24 @@
                 },
                 "uuid": [
                     {
-                        "value": "9d281ea8-30aa-452c-8ab9-ae5e02f3d74d"
+                        "value": "5d1d3c21-88f5-4419-bb7e-f6356ba675b4"
+                    }
+                ]
+            }
+        ],
+        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/game\/field_translite_in_game": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/config-tool.ddev.site\/media\/2\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/media\/translite"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b41913cc-1338-42ff-bda7-6ed43c56b567"
                     }
                 ]
             }
@@ -147,7 +257,7 @@
     ],
     "changed": [
         {
-            "value": "2025-03-03T18:37:06+00:00",
+            "value": "2025-03-12T19:22:51+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -195,6 +305,6 @@
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1741213548
+        "export_timestamp": 1742601542
     }
 }

@@ -149,7 +149,7 @@
     ],
     "changed": [
         {
-            "value": "2024-10-09T20:43:16+00:00",
+            "value": "2025-03-06T15:41:13+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -204,7 +204,17 @@
             "lang": "en"
         }
     ],
+    "field_segments": [
+        {
+            "from": 0,
+            "to": 10
+        },
+        {
+            "from": 11,
+            "to": 30
+        }
+    ],
     "_dcd_metadata": {
-        "export_timestamp": 1741213548
+        "export_timestamp": 1742601542
     }
 }
