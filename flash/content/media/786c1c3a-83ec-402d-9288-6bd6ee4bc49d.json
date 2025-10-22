@@ -1,29 +1,11 @@
 {
     "_links": {
-        "self": {
-            "href": "https:\/\/config-tool.ddev.site\/media\/6\/edit?_format=hal_json"
-        },
         "type": {
-            "href": "https:\/\/config-tool.ddev.site\/rest\/type\/media\/lamp_locations"
+            "href": "media\/lamp_locations"
         },
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/media\/lamp_locations\/uid": [
-            {
-                "href": "https:\/\/config-tool.ddev.site\/user\/2?_format=hal_json",
-                "lang": "en"
-            }
-        ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/media\/lamp_locations\/thumbnail": [
-            {
-                "href": "",
-                "lang": "en"
-            }
-        ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/media\/lamp_locations\/field_media_image_1": [
-            {
-                "href": "",
-                "lang": "en"
-            }
-        ]
+        "self": {
+            "href": "_dcd\/media\/6"
+        }
     },
     "mid": [
         {
@@ -59,14 +41,14 @@
         }
     ],
     "_embedded": {
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/media\/lamp_locations\/uid": [
+        "relation\/media\/lamp_locations\/uid": [
             {
                 "_links": {
-                    "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/user\/2?_format=hal_json"
-                    },
                     "type": {
-                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/user\/user"
+                        "href": "user\/user"
+                    },
+                    "self": {
+                        "href": "_dcd\/user\/2"
                     }
                 },
                 "uuid": [
@@ -77,14 +59,14 @@
                 "lang": "en"
             }
         ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/media\/lamp_locations\/thumbnail": [
+        "relation\/media\/lamp_locations\/thumbnail": [
             {
                 "_links": {
-                    "self": {
-                        "href": ""
-                    },
                     "type": {
-                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/file\/file"
+                        "href": "file\/file"
+                    },
+                    "self": {
+                        "href": "_dcd\/file\/8"
                     }
                 },
                 "uuid": [
@@ -99,14 +81,14 @@
                 "height": "885"
             }
         ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/media\/lamp_locations\/field_media_image_1": [
+        "relation\/media\/lamp_locations\/field_media_image_1": [
             {
                 "_links": {
-                    "self": {
-                        "href": ""
-                    },
                     "type": {
-                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/file\/file"
+                        "href": "file\/file"
+                    },
+                    "self": {
+                        "href": "_dcd\/file\/8"
                     }
                 },
                 "uuid": [
@@ -155,6 +137,6 @@
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1742601542
+        "export_timestamp": 1761170086
     }
 }

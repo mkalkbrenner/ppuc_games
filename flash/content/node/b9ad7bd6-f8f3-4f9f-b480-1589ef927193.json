@@ -1,27 +1,11 @@
 {
     "_links": {
-        "self": {
-            "href": "https:\/\/config-tool.ddev.site\/node\/158?_format=hal_json"
-        },
         "type": {
-            "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/switch"
+            "href": "node\/switch"
         },
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/switch\/revision_uid": [
-            {
-                "href": "https:\/\/config-tool.ddev.site\/user\/2?_format=hal_json"
-            }
-        ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/switch\/uid": [
-            {
-                "href": "https:\/\/config-tool.ddev.site\/user\/2?_format=hal_json",
-                "lang": "en"
-            }
-        ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/switch\/field_i_o_board": [
-            {
-                "href": "https:\/\/config-tool.ddev.site\/node\/180?_format=hal_json"
-            }
-        ]
+        "self": {
+            "href": "_dcd\/node\/158"
+        }
     },
     "nid": [
         {
@@ -51,14 +35,14 @@
         }
     ],
     "_embedded": {
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/switch\/revision_uid": [
+        "relation\/node\/switch\/revision_uid": [
             {
                 "_links": {
-                    "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/user\/2?_format=hal_json"
-                    },
                     "type": {
-                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/user\/user"
+                        "href": "user\/user"
+                    },
+                    "self": {
+                        "href": "_dcd\/user\/2"
                     }
                 },
                 "uuid": [
@@ -68,14 +52,14 @@
                 ]
             }
         ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/switch\/uid": [
+        "relation\/node\/switch\/uid": [
             {
                 "_links": {
-                    "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/user\/2?_format=hal_json"
-                    },
                     "type": {
-                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/user\/user"
+                        "href": "user\/user"
+                    },
+                    "self": {
+                        "href": "_dcd\/user\/2"
                     }
                 },
                 "uuid": [
@@ -86,14 +70,14 @@
                 "lang": "en"
             }
         ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/switch\/field_i_o_board": [
+        "relation\/node\/switch\/field_i_o_board": [
             {
                 "_links": {
-                    "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/node\/180?_format=hal_json"
-                    },
                     "type": {
-                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/i_o_board"
+                        "href": "node\/i_o_board"
+                    },
+                    "self": {
+                        "href": "_dcd\/node\/180"
                     }
                 },
                 "uuid": [
@@ -166,6 +150,6 @@
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1742601542
+        "export_timestamp": 1761170086
     }
 }

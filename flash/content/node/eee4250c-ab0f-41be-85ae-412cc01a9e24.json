@@ -1,38 +1,11 @@
 {
     "_links": {
-        "self": {
-            "href": "https:\/\/config-tool.ddev.site\/node\/39?_format=hal_json"
-        },
         "type": {
-            "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/pwm_device"
+            "href": "node\/pwm_device"
         },
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/pwm_device\/revision_uid": [
-            {
-                "href": "https:\/\/config-tool.ddev.site\/user\/2?_format=hal_json"
-            }
-        ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/pwm_device\/uid": [
-            {
-                "href": "https:\/\/config-tool.ddev.site\/user\/2?_format=hal_json",
-                "lang": "en"
-            }
-        ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/pwm_device\/field_fast_activation_switch": [
-            {
-                "href": "https:\/\/config-tool.ddev.site\/node\/117?_format=hal_json"
-            }
-        ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/pwm_device\/field_i_o_board": [
-            {
-                "href": "https:\/\/config-tool.ddev.site\/node\/89?_format=hal_json",
-                "lang": "en"
-            }
-        ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/pwm_device\/field_pwm_type": [
-            {
-                "href": "https:\/\/config-tool.ddev.site\/taxonomy\/term\/30?_format=hal_json"
-            }
-        ]
+        "self": {
+            "href": "_dcd\/node\/39"
+        }
     },
     "nid": [
         {
@@ -62,14 +35,14 @@
         }
     ],
     "_embedded": {
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/pwm_device\/revision_uid": [
+        "relation\/node\/pwm_device\/revision_uid": [
             {
                 "_links": {
-                    "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/user\/2?_format=hal_json"
-                    },
                     "type": {
-                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/user\/user"
+                        "href": "user\/user"
+                    },
+                    "self": {
+                        "href": "_dcd\/user\/2"
                     }
                 },
                 "uuid": [
@@ -79,14 +52,14 @@
                 ]
             }
         ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/pwm_device\/uid": [
+        "relation\/node\/pwm_device\/uid": [
             {
                 "_links": {
-                    "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/user\/2?_format=hal_json"
-                    },
                     "type": {
-                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/user\/user"
+                        "href": "user\/user"
+                    },
+                    "self": {
+                        "href": "_dcd\/user\/2"
                     }
                 },
                 "uuid": [
@@ -97,14 +70,14 @@
                 "lang": "en"
             }
         ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/pwm_device\/field_fast_activation_switch": [
+        "relation\/node\/pwm_device\/field_fast_activation_switch": [
             {
                 "_links": {
-                    "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/node\/117?_format=hal_json"
-                    },
                     "type": {
-                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/switch"
+                        "href": "node\/switch"
+                    },
+                    "self": {
+                        "href": "_dcd\/node\/117"
                     }
                 },
                 "uuid": [
@@ -114,14 +87,14 @@
                 ]
             }
         ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/pwm_device\/field_i_o_board": [
+        "relation\/node\/pwm_device\/field_i_o_board": [
             {
                 "_links": {
-                    "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/node\/89?_format=hal_json"
-                    },
                     "type": {
-                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/i_o_board"
+                        "href": "node\/i_o_board"
+                    },
+                    "self": {
+                        "href": "_dcd\/node\/89"
                     }
                 },
                 "uuid": [
@@ -132,14 +105,14 @@
                 "lang": "en"
             }
         ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/pwm_device\/field_pwm_type": [
+        "relation\/node\/pwm_device\/field_pwm_type": [
             {
                 "_links": {
-                    "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/taxonomy\/term\/30?_format=hal_json"
-                    },
                     "type": {
-                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/taxonomy_term\/pwm_device"
+                        "href": "taxonomy_term\/pwm_device"
+                    },
+                    "self": {
+                        "href": "_dcd\/taxonomy_term\/30"
                     }
                 },
                 "uuid": [
@@ -171,7 +144,7 @@
     ],
     "changed": [
         {
-            "value": "2025-03-03T18:37:05+00:00",
+            "value": "2025-10-19T17:28:19+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -202,12 +175,12 @@
     ],
     "field_hold_power": [
         {
-            "value": 96
+            "value": 128
         }
     ],
     "field_hold_power_activation_time": [
         {
-            "value": 100
+            "value": 50
         }
     ],
     "field_max_pulse_time": [
@@ -228,16 +201,16 @@
     ],
     "field_pin": [
         {
-            "value": 20,
+            "value": 21,
             "lang": "en"
         }
     ],
     "field_power": [
         {
-            "value": 144
+            "value": 164
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1742601542
+        "export_timestamp": 1761170086
     }
 }

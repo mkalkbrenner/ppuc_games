@@ -1,32 +1,11 @@
 {
     "_links": {
-        "self": {
-            "href": "https:\/\/config-tool.ddev.site\/node\/84?_format=hal_json"
-        },
         "type": {
-            "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/i_o_board"
+            "href": "node\/i_o_board"
         },
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/i_o_board\/revision_uid": [
-            {
-                "href": "https:\/\/config-tool.ddev.site\/user\/2?_format=hal_json"
-            }
-        ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/i_o_board\/uid": [
-            {
-                "href": "https:\/\/config-tool.ddev.site\/user\/2?_format=hal_json",
-                "lang": "en"
-            }
-        ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/i_o_board\/field_game": [
-            {
-                "href": "https:\/\/config-tool.ddev.site\/node\/103?_format=hal_json"
-            }
-        ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/i_o_board\/field_io_board_type": [
-            {
-                "href": "https:\/\/config-tool.ddev.site\/taxonomy\/term\/24?_format=hal_json"
-            }
-        ]
+        "self": {
+            "href": "_dcd\/node\/84"
+        }
     },
     "nid": [
         {
@@ -56,14 +35,14 @@
         }
     ],
     "_embedded": {
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/i_o_board\/revision_uid": [
+        "relation\/node\/i_o_board\/revision_uid": [
             {
                 "_links": {
-                    "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/user\/2?_format=hal_json"
-                    },
                     "type": {
-                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/user\/user"
+                        "href": "user\/user"
+                    },
+                    "self": {
+                        "href": "_dcd\/user\/2"
                     }
                 },
                 "uuid": [
@@ -73,14 +52,14 @@
                 ]
             }
         ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/i_o_board\/uid": [
+        "relation\/node\/i_o_board\/uid": [
             {
                 "_links": {
-                    "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/user\/2?_format=hal_json"
-                    },
                     "type": {
-                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/user\/user"
+                        "href": "user\/user"
+                    },
+                    "self": {
+                        "href": "_dcd\/user\/2"
                     }
                 },
                 "uuid": [
@@ -91,14 +70,14 @@
                 "lang": "en"
             }
         ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/i_o_board\/field_game": [
+        "relation\/node\/i_o_board\/field_game": [
             {
                 "_links": {
-                    "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/node\/103?_format=hal_json"
-                    },
                     "type": {
-                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/game"
+                        "href": "node\/game"
+                    },
+                    "self": {
+                        "href": "_dcd\/node\/103"
                     }
                 },
                 "uuid": [
@@ -108,14 +87,14 @@
                 ]
             }
         ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/i_o_board\/field_io_board_type": [
+        "relation\/node\/i_o_board\/field_io_board_type": [
             {
                 "_links": {
-                    "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/taxonomy\/term\/24?_format=hal_json"
-                    },
                     "type": {
-                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/taxonomy_term\/i_o_board"
+                        "href": "taxonomy_term\/i_o_board"
+                    },
+                    "self": {
+                        "href": "_dcd\/taxonomy_term\/24"
                     }
                 },
                 "uuid": [
@@ -182,6 +161,6 @@
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1742601542
+        "export_timestamp": 1761170086
     }
 }

@@ -1,32 +1,11 @@
 {
     "_links": {
-        "self": {
-            "href": "https:\/\/config-tool.ddev.site\/node\/183?_format=hal_json"
-        },
         "type": {
-            "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/led_effect"
+            "href": "node\/led_effect"
         },
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/led_effect\/revision_uid": [
-            {
-                "href": "https:\/\/config-tool.ddev.site\/user\/2?_format=hal_json"
-            }
-        ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/led_effect\/uid": [
-            {
-                "href": "https:\/\/config-tool.ddev.site\/user\/2?_format=hal_json",
-                "lang": "en"
-            }
-        ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/led_effect\/field_effect": [
-            {
-                "href": "https:\/\/config-tool.ddev.site\/taxonomy\/term\/45?_format=hal_json"
-            }
-        ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/led_effect\/field_string": [
-            {
-                "href": "https:\/\/config-tool.ddev.site\/node\/69?_format=hal_json"
-            }
-        ]
+        "self": {
+            "href": "_dcd\/node\/183"
+        }
     },
     "nid": [
         {
@@ -56,14 +35,14 @@
         }
     ],
     "_embedded": {
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/led_effect\/revision_uid": [
+        "relation\/node\/led_effect\/revision_uid": [
             {
                 "_links": {
-                    "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/user\/2?_format=hal_json"
-                    },
                     "type": {
-                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/user\/user"
+                        "href": "user\/user"
+                    },
+                    "self": {
+                        "href": "_dcd\/user\/2"
                     }
                 },
                 "uuid": [
@@ -73,14 +52,14 @@
                 ]
             }
         ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/led_effect\/uid": [
+        "relation\/node\/led_effect\/uid": [
             {
                 "_links": {
-                    "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/user\/2?_format=hal_json"
-                    },
                     "type": {
-                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/user\/user"
+                        "href": "user\/user"
+                    },
+                    "self": {
+                        "href": "_dcd\/user\/2"
                     }
                 },
                 "uuid": [
@@ -91,31 +70,31 @@
                 "lang": "en"
             }
         ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/led_effect\/field_effect": [
+        "relation\/node\/led_effect\/field_effect": [
             {
                 "_links": {
-                    "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/taxonomy\/term\/45?_format=hal_json"
-                    },
                     "type": {
-                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/taxonomy_term\/fx_modes"
+                        "href": "taxonomy_term\/fx_modes"
+                    },
+                    "self": {
+                        "href": "_dcd\/taxonomy_term\/69"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "d527e92f-5c67-42ff-b14d-efb497ea0e73"
+                        "value": "ee6ebf0b-09cd-466a-84f5-199828282ce2"
                     }
                 ]
             }
         ],
-        "https:\/\/config-tool.ddev.site\/rest\/relation\/node\/led_effect\/field_string": [
+        "relation\/node\/led_effect\/field_string": [
             {
                 "_links": {
-                    "self": {
-                        "href": "https:\/\/config-tool.ddev.site\/node\/69?_format=hal_json"
-                    },
                     "type": {
-                        "href": "https:\/\/config-tool.ddev.site\/rest\/type\/node\/addressable_leds"
+                        "href": "node\/addressable_leds"
+                    },
+                    "self": {
+                        "href": "_dcd\/node\/69"
                     }
                 },
                 "uuid": [
@@ -147,7 +126,7 @@
     ],
     "changed": [
         {
-            "value": "2025-03-04T17:26:48+00:00",
+            "value": "2025-10-21T21:38:44+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -184,7 +163,7 @@
     ],
     "field_duration": [
         {
-            "value": 200
+            "value": 1000
         }
     ],
     "field_priority": [
@@ -197,12 +176,17 @@
             "value": false
         }
     ],
+    "field_segment": [
+        {
+            "value": 0
+        }
+    ],
     "field_trigger": [
         {
             "value": "L6 ON"
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1742601542
+        "export_timestamp": 1761170086
     }
 }
