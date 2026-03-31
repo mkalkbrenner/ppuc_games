@@ -1,0 +1,143 @@
+{
+    "_links": {
+        "type": {
+            "href": "media\/translite"
+        },
+        "self": {
+            "href": "_dcd\/media\/12"
+        }
+    },
+    "mid": [
+        {
+            "value": 12
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d69f88d3-01a2-49ae-a081-ae132fe24656"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "translite"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2026-03-31T13:17:31+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "relation\/media\/translite\/uid": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "user\/user"
+                    },
+                    "self": {
+                        "href": "_dcd\/user\/2"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f7760c1e-2497-482d-8e95-dd7f4f5e02e3"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "relation\/media\/translite\/thumbnail": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "file\/file"
+                    },
+                    "self": {
+                        "href": "_dcd\/file\/14"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a61e5424-3c6e-4c67-9591-7510539067b9"
+                    }
+                ],
+                "lang": "en",
+                "alt": "",
+                "title": null,
+                "width": "3000",
+                "height": "2682"
+            }
+        ],
+        "relation\/media\/translite\/field_media_image": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "file\/file"
+                    },
+                    "self": {
+                        "href": "_dcd\/file\/14"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a61e5424-3c6e-4c67-9591-7510539067b9"
+                    }
+                ],
+                "lang": "en",
+                "alt": "",
+                "title": "",
+                "width": "3000",
+                "height": "2682"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Time_Warp_bg_full_dmd.png",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2026-03-31T13:17:31+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2026-03-31T13:17:31+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_dcd_metadata": {
+        "export_timestamp": 1774964144,
+        "sort_key": 12
+    }
+}

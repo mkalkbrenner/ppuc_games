@@ -1,0 +1,161 @@
+{
+    "_links": {
+        "type": {
+            "href": "node\/switch"
+        },
+        "self": {
+            "href": "_dcd\/node\/23"
+        }
+    },
+    "nid": [
+        {
+            "value": 23
+        }
+    ],
+    "uuid": [
+        {
+            "value": "e04ae36c-ed02-436d-a074-1a59c6512170"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "switch"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2026-03-30T15:14:16+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "relation\/node\/switch\/revision_uid": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "user\/user"
+                    },
+                    "self": {
+                        "href": "_dcd\/user\/2"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f7760c1e-2497-482d-8e95-dd7f4f5e02e3"
+                    }
+                ]
+            }
+        ],
+        "relation\/node\/switch\/uid": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "user\/user"
+                    },
+                    "self": {
+                        "href": "_dcd\/user\/2"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f7760c1e-2497-482d-8e95-dd7f4f5e02e3"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "relation\/node\/switch\/field_i_o_board": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "node\/i_o_board"
+                    },
+                    "self": {
+                        "href": "_dcd\/node\/4"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "023c4d0e-25e5-4663-8ef2-30dea85109b3"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "5-BANK DROP TARGET #2",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2026-03-30T15:14:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2026-03-30T15:14:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_debounce": [
+        {
+            "value": 10
+        }
+    ],
+    "field_number": [
+        {
+            "value": 26,
+            "lang": "en"
+        }
+    ],
+    "field_pin": [
+        {
+            "value": 12
+        }
+    ],
+    "_dcd_metadata": {
+        "export_timestamp": 1774964144,
+        "sort_key": 23
+    }
+}

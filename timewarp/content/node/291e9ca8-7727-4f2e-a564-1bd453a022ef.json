@@ -1,0 +1,179 @@
+{
+    "_links": {
+        "type": {
+            "href": "node\/addressable_led"
+        },
+        "self": {
+            "href": "_dcd\/node\/254"
+        }
+    },
+    "nid": [
+        {
+            "value": 254
+        }
+    ],
+    "uuid": [
+        {
+            "value": "291e9ca8-7727-4f2e-a564-1bd453a022ef"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "addressable_led"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2026-03-30T19:30:52+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "relation\/node\/addressable_led\/revision_uid": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "user\/user"
+                    },
+                    "self": {
+                        "href": "_dcd\/user\/2"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f7760c1e-2497-482d-8e95-dd7f4f5e02e3"
+                    }
+                ]
+            }
+        ],
+        "relation\/node\/addressable_led\/uid": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "user\/user"
+                    },
+                    "self": {
+                        "href": "_dcd\/user\/2"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f7760c1e-2497-482d-8e95-dd7f4f5e02e3"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "relation\/node\/addressable_led\/field_role": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "taxonomy_term\/led_role"
+                    },
+                    "self": {
+                        "href": "_dcd\/taxonomy_term\/16"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "380dd744-eef0-4bb8-9b62-d6d4ac2af2c6"
+                    }
+                ]
+            }
+        ],
+        "relation\/node\/addressable_led\/field_string": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "node\/addressable_leds"
+                    },
+                    "self": {
+                        "href": "_dcd\/node\/252"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c4d80860-bd8f-4bd1-9b45-c5ad5ff56dbd"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "\"11\" BONUS",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2026-03-30T19:30:52+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2026-03-30T19:30:52+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_color": [
+        {
+            "color": "00FF00",
+            "opacity": null
+        }
+    ],
+    "field_number": [
+        {
+            "value": 12,
+            "lang": "en"
+        }
+    ],
+    "field_string_position": [
+        {
+            "value": 1
+        }
+    ],
+    "_dcd_metadata": {
+        "export_timestamp": 1774964144,
+        "sort_key": 254
+    }
+}

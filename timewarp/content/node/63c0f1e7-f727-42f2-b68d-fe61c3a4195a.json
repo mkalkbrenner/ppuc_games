@@ -1,0 +1,189 @@
+{
+    "_links": {
+        "type": {
+            "href": "node\/pwm_device"
+        },
+        "self": {
+            "href": "_dcd\/node\/181"
+        }
+    },
+    "nid": [
+        {
+            "value": 181
+        }
+    ],
+    "uuid": [
+        {
+            "value": "63c0f1e7-f727-42f2-b68d-fe61c3a4195a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "pwm_device"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2025-03-04T17:01:03+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "relation\/node\/pwm_device\/revision_uid": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "user\/user"
+                    },
+                    "self": {
+                        "href": "_dcd\/user\/2"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f7760c1e-2497-482d-8e95-dd7f4f5e02e3"
+                    }
+                ]
+            }
+        ],
+        "relation\/node\/pwm_device\/uid": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "user\/user"
+                    },
+                    "self": {
+                        "href": "_dcd\/user\/2"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f7760c1e-2497-482d-8e95-dd7f4f5e02e3"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "relation\/node\/pwm_device\/field_i_o_board": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "node\/i_o_board"
+                    },
+                    "self": {
+                        "href": "_dcd\/node\/180"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c429c1a8-31fb-4e08-a019-5e3526a6bbc8"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "relation\/node\/pwm_device\/field_pwm_type": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "taxonomy_term\/pwm_device"
+                    },
+                    "self": {
+                        "href": "_dcd\/taxonomy_term\/106"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bc5322b5-df99-4637-b0f9-59a6be00db27"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Shaker",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2025-03-04T17:01:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2025-10-22T17:32:06+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_max_pulse_time": [
+        {
+            "value": 0
+        }
+    ],
+    "field_min_pulse_time": [
+        {
+            "value": 0
+        }
+    ],
+    "field_number": [
+        {
+            "value": 100,
+            "lang": "en"
+        }
+    ],
+    "field_pin": [
+        {
+            "value": 17,
+            "lang": "en"
+        }
+    ],
+    "field_power": [
+        {
+            "value": 128
+        }
+    ],
+    "_dcd_metadata": {
+        "export_timestamp": 1761170086
+    }
+}

@@ -1,0 +1,274 @@
+{
+    "_links": {
+        "type": {
+            "href": "node\/game"
+        },
+        "self": {
+            "href": "_dcd\/node\/1"
+        }
+    },
+    "nid": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "312818d8-da4b-4d40-b606-92042cf059d2"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "game"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2026-03-30T12:37:50+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "relation\/node\/game\/revision_uid": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "user\/user"
+                    },
+                    "self": {
+                        "href": "_dcd\/user\/2"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f7760c1e-2497-482d-8e95-dd7f4f5e02e3"
+                    }
+                ]
+            }
+        ],
+        "relation\/node\/game\/uid": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "user\/user"
+                    },
+                    "self": {
+                        "href": "_dcd\/user\/2"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f7760c1e-2497-482d-8e95-dd7f4f5e02e3"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "relation\/node\/game\/field_lamp_locations": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "media\/lamp_locations"
+                    },
+                    "self": {
+                        "href": "_dcd\/media\/10"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f963927b-7fe2-4f40-ad5e-17173cf60604"
+                    }
+                ]
+            }
+        ],
+        "relation\/node\/game\/field_manual": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "media\/manual"
+                    },
+                    "self": {
+                        "href": "_dcd\/media\/8"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4b5d482e-dfd4-4f16-9f22-d5a0e12e2578"
+                    }
+                ]
+            }
+        ],
+        "relation\/node\/game\/field_platform": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "taxonomy_term\/platform"
+                    },
+                    "self": {
+                        "href": "_dcd\/taxonomy_term\/108"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4ecc082e-5a0f-40db-b911-e56a9d4dfed0"
+                    }
+                ]
+            }
+        ],
+        "relation\/node\/game\/field_rom": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "media\/rom"
+                    },
+                    "self": {
+                        "href": "_dcd\/media\/7"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "610d8119-46e6-48e1-bfdb-8765001458ab"
+                    }
+                ]
+            }
+        ],
+        "relation\/node\/game\/field_solenoid_locations": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "media\/solenoid_locations"
+                    },
+                    "self": {
+                        "href": "_dcd\/media\/11"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a42ef283-14ea-4c70-b699-d8d074ca40de"
+                    }
+                ]
+            }
+        ],
+        "relation\/node\/game\/field_switch_locations": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "media\/switch_locations"
+                    },
+                    "self": {
+                        "href": "_dcd\/media\/9"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "19adcadf-7017-455f-8b4f-558949017322"
+                    }
+                ]
+            }
+        ],
+        "relation\/node\/game\/field_translite": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "media\/translite"
+                    },
+                    "self": {
+                        "href": "_dcd\/media\/12"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d69f88d3-01a2-49ae-a081-ae132fe24656"
+                    }
+                ]
+            }
+        ],
+        "relation\/node\/game\/field_translite_in_game": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "media\/translite"
+                    },
+                    "self": {
+                        "href": "_dcd\/media\/13"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e693dac0-a240-4102-8bd3-78fd9d5c5ea5"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Time Warp",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2026-03-30T12:37:50+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2026-03-31T13:25:45+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_coin_door_closed_switch": [
+        {
+            "value": 200
+        }
+    ],
+    "field_game_on_solenoid": [
+        {
+            "value": 23
+        }
+    ],
+    "_dcd_metadata": {
+        "export_timestamp": 1774964144,
+        "sort_key": 1
+    }
+}

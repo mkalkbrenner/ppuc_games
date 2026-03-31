@@ -1,0 +1,141 @@
+{
+    "_links": {
+        "type": {
+            "href": "media\/manual"
+        },
+        "self": {
+            "href": "_dcd\/media\/8"
+        }
+    },
+    "mid": [
+        {
+            "value": 8
+        }
+    ],
+    "uuid": [
+        {
+            "value": "4b5d482e-dfd4-4f16-9f22-d5a0e12e2578"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "manual"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2026-03-31T12:26:04+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "relation\/media\/manual\/uid": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "user\/user"
+                    },
+                    "self": {
+                        "href": "_dcd\/user\/2"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f7760c1e-2497-482d-8e95-dd7f4f5e02e3"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "relation\/media\/manual\/thumbnail": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "file\/file"
+                    },
+                    "self": {
+                        "href": "_dcd\/file\/8"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "69269b2f-8509-4ab7-b28c-d1a9be2e3d93"
+                    }
+                ],
+                "lang": "en",
+                "alt": "",
+                "title": null,
+                "width": "180",
+                "height": "180"
+            }
+        ],
+        "relation\/media\/manual\/field_media_file": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "file\/file"
+                    },
+                    "self": {
+                        "href": "_dcd\/file\/10"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "31431145-b87a-4c41-b37a-71aed42a7831"
+                    }
+                ],
+                "lang": "en",
+                "display": null,
+                "description": null
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Williams_1979_Time_Warp_English_Manual_no_schematics.pdf",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2026-03-31T12:26:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2026-03-31T12:26:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_dcd_metadata": {
+        "export_timestamp": 1774964144,
+        "sort_key": 8
+    }
+}

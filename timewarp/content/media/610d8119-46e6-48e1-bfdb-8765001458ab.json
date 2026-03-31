@@ -1,0 +1,141 @@
+{
+    "_links": {
+        "type": {
+            "href": "media\/rom"
+        },
+        "self": {
+            "href": "_dcd\/media\/7"
+        }
+    },
+    "mid": [
+        {
+            "value": 7
+        }
+    ],
+    "uuid": [
+        {
+            "value": "610d8119-46e6-48e1-bfdb-8765001458ab"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "rom"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2026-03-31T12:24:12+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "relation\/media\/rom\/uid": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "user\/user"
+                    },
+                    "self": {
+                        "href": "_dcd\/user\/2"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f7760c1e-2497-482d-8e95-dd7f4f5e02e3"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "relation\/media\/rom\/thumbnail": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "file\/file"
+                    },
+                    "self": {
+                        "href": "_dcd\/file\/8"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "69269b2f-8509-4ab7-b28c-d1a9be2e3d93"
+                    }
+                ],
+                "lang": "en",
+                "alt": "",
+                "title": null,
+                "width": "180",
+                "height": "180"
+            }
+        ],
+        "relation\/media\/rom\/field_media_file_1": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "file\/file"
+                    },
+                    "self": {
+                        "href": "_dcd\/file\/9"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7c91a416-80e6-4636-89e4-ad4556e34105"
+                    }
+                ],
+                "lang": "en",
+                "display": null,
+                "description": null
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "tmwrp_l2.zip",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2026-03-31T12:24:12+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2026-03-31T12:24:12+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_dcd_metadata": {
+        "export_timestamp": 1774964144,
+        "sort_key": 7
+    }
+}

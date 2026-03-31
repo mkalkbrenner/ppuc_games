@@ -1,0 +1,143 @@
+{
+    "_links": {
+        "type": {
+            "href": "media\/lamp_locations"
+        },
+        "self": {
+            "href": "_dcd\/media\/10"
+        }
+    },
+    "mid": [
+        {
+            "value": 10
+        }
+    ],
+    "uuid": [
+        {
+            "value": "f963927b-7fe2-4f40-ad5e-17173cf60604"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "lamp_locations"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2026-03-31T12:54:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "relation\/media\/lamp_locations\/uid": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "user\/user"
+                    },
+                    "self": {
+                        "href": "_dcd\/user\/2"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f7760c1e-2497-482d-8e95-dd7f4f5e02e3"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "relation\/media\/lamp_locations\/thumbnail": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "file\/file"
+                    },
+                    "self": {
+                        "href": "_dcd\/file\/12"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5747e56f-697c-418d-8b58-58cb2d8652d9"
+                    }
+                ],
+                "lang": "en",
+                "alt": "",
+                "title": null,
+                "width": "928",
+                "height": "744"
+            }
+        ],
+        "relation\/media\/lamp_locations\/field_media_image_1": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "file\/file"
+                    },
+                    "self": {
+                        "href": "_dcd\/file\/12"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5747e56f-697c-418d-8b58-58cb2d8652d9"
+                    }
+                ],
+                "lang": "en",
+                "alt": "",
+                "title": "",
+                "width": "928",
+                "height": "744"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "TimeWarpLampMatrix.png",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2026-03-31T12:54:51+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2026-03-31T12:54:51+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_dcd_metadata": {
+        "export_timestamp": 1774964144,
+        "sort_key": 10
+    }
+}
