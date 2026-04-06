@@ -4,12 +4,12 @@
             "href": "node\/pwm_device"
         },
         "self": {
-            "href": "_dcd\/node\/71"
+            "href": "_dcd\/node\/104"
         }
     },
     "nid": [
         {
-            "value": 71
+            "value": 104
         }
     ],
     "uuid": [
@@ -77,7 +77,7 @@
                         "href": "node\/i_o_board"
                     },
                     "self": {
-                        "href": "_dcd\/node\/89"
+                        "href": "_dcd\/node\/213"
                     }
                 },
                 "uuid": [
@@ -184,6 +184,7 @@
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1761170086
+        "export_timestamp": 1775498229,
+        "sort_key": 104
     }
 }

@@ -4,12 +4,12 @@
             "href": "node\/game"
         },
         "self": {
-            "href": "_dcd\/node\/103"
+            "href": "_dcd\/node\/223"
         }
     },
     "nid": [
         {
-            "value": 103
+            "value": 223
         }
     ],
     "uuid": [
@@ -77,7 +77,7 @@
                         "href": "media\/lamp_locations"
                     },
                     "self": {
-                        "href": "_dcd\/media\/6"
+                        "href": "_dcd\/media\/5"
                     }
                 },
                 "uuid": [
@@ -94,7 +94,7 @@
                         "href": "media\/manual"
                     },
                     "self": {
-                        "href": "_dcd\/media\/5"
+                        "href": "_dcd\/media\/6"
                     }
                 },
                 "uuid": [
@@ -145,7 +145,7 @@
                         "href": "media\/switch_locations"
                     },
                     "self": {
-                        "href": "_dcd\/media\/7"
+                        "href": "_dcd\/media\/1"
                     }
                 },
                 "uuid": [
@@ -259,6 +259,7 @@
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1761170086
+        "export_timestamp": 1775498229,
+        "sort_key": 223
     }
 }

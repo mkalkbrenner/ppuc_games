@@ -4,12 +4,12 @@
             "href": "node\/addressable_led"
         },
         "self": {
-            "href": "_dcd\/node\/74"
+            "href": "_dcd\/node\/210"
         }
     },
     "nid": [
         {
-            "value": 74
+            "value": 210
         }
     ],
     "uuid": [
@@ -94,7 +94,7 @@
                         "href": "node\/addressable_leds"
                     },
                     "self": {
-                        "href": "_dcd\/node\/32"
+                        "href": "_dcd\/node\/75"
                     }
                 },
                 "uuid": [
@@ -173,6 +173,7 @@
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1761170086
+        "export_timestamp": 1775498229,
+        "sort_key": 210
     }
 }

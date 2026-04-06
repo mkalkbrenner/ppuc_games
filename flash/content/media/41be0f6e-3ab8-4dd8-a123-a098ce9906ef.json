@@ -66,12 +66,12 @@
                         "href": "file\/file"
                     },
                     "self": {
-                        "href": "_dcd\/file\/6"
+                        "href": "_dcd\/file\/8"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "cd8eaafb-b4a6-460a-9785-14d0ef55756f"
+                        "value": "69269b2f-8509-4ab7-b28c-d1a9be2e3d93"
                     }
                 ],
                 "lang": "en",
@@ -88,7 +88,7 @@
                         "href": "file\/file"
                     },
                     "self": {
-                        "href": "_dcd\/file\/5"
+                        "href": "_dcd\/file\/4"
                     }
                 },
                 "uuid": [
@@ -135,6 +135,7 @@
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1761170086
+        "export_timestamp": 1775498229,
+        "sort_key": 4
     }
 }

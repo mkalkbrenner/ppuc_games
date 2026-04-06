@@ -1,0 +1,1341 @@
+ppucVersion: 1
+rom: dummy
+serialPort: dummy
+platform: SYS4
+coinDoorClosedSwitch: 200
+gameOnSolenoid: 23
+debug: false
+boards:
+  -
+    description: 'Flash IO 1'
+    number: 1
+    pollEvents: true
+  -
+    description: 'Flash IO 2'
+    number: 2
+    pollEvents: true
+  -
+    description: 'Flash IO 3'
+    number: 3
+    pollEvents: true
+  -
+    description: 'Flash IO 4'
+    number: 4
+    pollEvents: true
+dipSwitches: {  }
+switches:
+  -
+    description: 'Bomb Tilt'
+    number: 1
+    board: 1
+    port: 3
+    debounce: 10
+  -
+    description: 'Credit (Start) Button'
+    number: 3
+    board: 1
+    port: 5
+    debounce: 10
+  -
+    description: 'Right Coin Switch'
+    number: 4
+    board: 1
+    port: 6
+    debounce: 10
+  -
+    description: 'Center Coin Switch'
+    number: 5
+    board: 1
+    port: 7
+    debounce: 10
+  -
+    description: 'Left Coin Switch'
+    number: 6
+    board: 1
+    port: 8
+    debounce: 10
+  -
+    description: 'Slam Tilt'
+    number: 7
+    board: 1
+    port: 9
+    debounce: 10
+  -
+    description: 'High Score To Date Reset'
+    number: 8
+    board: 1
+    port: 10
+    debounce: 10
+  -
+    description: 'Outside Upper Left Star Rollover'
+    number: 9
+    board: 2
+    port: 6
+    debounce: 10
+  -
+    description: 'Inside Upper Left Star Rollover'
+    number: 10
+    board: 2
+    port: 11
+    debounce: 10
+  -
+    description: 'Upper Left Standup'
+    number: 11
+    board: 2
+    port: 12
+    debounce: 10
+  -
+    description: '"1" Rollover'
+    number: 12
+    board: 2
+    port: 10
+    debounce: 10
+  -
+    description: '"2" Rollover'
+    number: 13
+    board: 2
+    port: 7
+    debounce: 10
+  -
+    description: '"3" Rollover'
+    number: 14
+    board: 2
+    port: 9
+    debounce: 10
+  -
+    description: '"4" Rollover'
+    number: 15
+    board: 2
+    port: 13
+    debounce: 10
+  -
+    description: 'Top Right Standup'
+    number: 16
+    board: 2
+    port: 8
+    debounce: 10
+  -
+    description: Spinner
+    number: 17
+    board: 3
+    port: 7
+    debounce: 10
+  -
+    description: 'Left Jet Bumber'
+    number: 18
+    board: 2
+    port: 5
+    debounce: 10
+  -
+    description: 'Right Jet Bumper'
+    number: 19
+    board: 3
+    port: 4
+    debounce: 10
+  -
+    description: 'Lower Jet Bumper'
+    number: 20
+    board: 4
+    port: 5
+    debounce: 10
+  -
+    description: 'Upper Right Star Rollover'
+    number: 21
+    board: 3
+    port: 9
+    debounce: 10
+  -
+    description: 'Center Right Star Rollover'
+    number: 22
+    board: 3
+    port: 10
+    debounce: 10
+  -
+    description: 'Lower Right Star Rollover'
+    number: 23
+    board: 3
+    port: 12
+    debounce: 10
+  -
+    description: 'Right Side Standup, Upper'
+    number: 24
+    board: 3
+    port: 8
+    debounce: 10
+  -
+    description: 'Right Side Standup, Center'
+    number: 25
+    board: 3
+    port: 6
+    debounce: 10
+  -
+    description: 'Right Side Standup, Lower'
+    number: 26
+    board: 3
+    port: 13
+    debounce: 10
+  -
+    description: 'Eject Hole'
+    number: 27
+    board: 3
+    port: 11
+    debounce: 10
+  -
+    description: '3 - Bank, Right Drop Target'
+    number: 28
+    board: 3
+    port: 17
+    debounce: 10
+  -
+    description: '3 - Bank, Center Drop Target'
+    number: 29
+    board: 3
+    port: 16
+    debounce: 10
+  -
+    description: '3 - Bank, Left Drop Target'
+    number: 30
+    board: 3
+    port: 15
+    debounce: 10
+  -
+    description: '3 - Bank, Series'
+    number: 31
+    board: 3
+    port: 14
+    debounce: 10
+  -
+    description: '5 - Bank, 1 Drop Target (Top)'
+    number: 32
+    board: 3
+    port: 18
+    debounce: 10
+  -
+    description: '5 - Bank 2 Drop Target'
+    number: 33
+    board: 2
+    port: 15
+    debounce: 10
+  -
+    description: '5 - Bank 3 Drop Target'
+    number: 34
+    board: 2
+    port: 16
+    debounce: 10
+  -
+    description: '5 - Bank 4 Drop Target'
+    number: 35
+    board: 2
+    port: 17
+    debounce: 10
+  -
+    description: '5 - Bank, 5 Drop Target (Bottom)'
+    number: 36
+    board: 2
+    port: 18
+    debounce: 10
+  -
+    description: '5 - Bank Series'
+    number: 37
+    board: 2
+    port: 14
+    debounce: 10
+  -
+    description: '5 - Bank Standup'
+    number: 38
+    board: 4
+    port: 13
+    debounce: 10
+  -
+    description: 'Left Target'
+    number: 39
+    board: 4
+    port: 12
+    debounce: 10
+  -
+    description: 'Right Target'
+    number: 40
+    board: 3
+    port: 5
+    debounce: 10
+  -
+    description: 'Left Kicker'
+    number: 41
+    board: 2
+    port: 4
+    debounce: 10
+  -
+    description: 'Right Kicker'
+    number: 42
+    board: 4
+    port: 4
+    debounce: 10
+  -
+    description: 'Left Special Rollover'
+    number: 43
+    board: 4
+    port: 9
+    debounce: 10
+  -
+    description: 'Left Flipper Return Rollover'
+    number: 44
+    board: 4
+    port: 7
+    debounce: 10
+  -
+    description: 'Right Flipper Return Rollover'
+    number: 45
+    board: 4
+    port: 8
+    debounce: 10
+  -
+    description: 'Right Special Rollover'
+    number: 46
+    board: 4
+    port: 6
+    debounce: 10
+  -
+    description: 'Playfield Tilt'
+    number: 47
+    board: 4
+    port: 10
+    debounce: 10
+  -
+    description: Outhole
+    number: 48
+    board: 4
+    port: 11
+    debounce: 10
+  -
+    description: 'Coin Door Open'
+    number: 200
+    board: 1
+    port: 4
+    debounce: 10
+  -
+    description: 'Left Flipper Button'
+    number: 201
+    board: 2
+    port: 3
+    debounce: 10
+  -
+    description: 'Right Upper Flipper Button'
+    number: 202
+    board: 3
+    port: 3
+    debounce: 10
+  -
+    description: 'Right Flipper Button'
+    number: 203
+    board: 4
+    port: 3
+    debounce: 10
+  -
+    description: Enter
+    number: 243
+    board: 1
+    port: 15
+    debounce: 10
+  -
+    description: 'Sound Diag'
+    number: 244
+    board: 1
+    port: 11
+    debounce: 10
+  -
+    description: 'CPU Diag'
+    number: 245
+    board: 1
+    port: 12
+    debounce: 10
+  -
+    description: 'Up Down'
+    number: 246
+    board: 1
+    port: 13
+    debounce: 10
+  -
+    description: Advance
+    number: 247
+    board: 1
+    port: 14
+    debounce: 10
+ledStripes:
+  -
+    description: Cabinet
+    board: 1
+    port: 29
+    ledType: RBG
+    brightness: 96
+    amount: 94
+    lightUp: 0
+    afterGlow: 0
+    segments:
+      -
+        number: 1
+        from: 8
+        to: 93
+    lamps: {  }
+    flashers: {  }
+    gi:
+      -
+        description: 'Left Flipper Button Bottom'
+        number: 1
+        ledNumber: 0
+        color: FF00FF
+      -
+        description: 'Coin 1'
+        number: 1
+        ledNumber: 5
+        color: FFFFFF
+      -
+        description: 'Right Flipper Button Top'
+        number: 1
+        ledNumber: 3
+        color: FF00FF
+      -
+        description: 'Left Flipper Button Bottom'
+        number: 1
+        ledNumber: 1
+        color: 004AFF
+      -
+        description: 'Coin 2'
+        number: 1
+        ledNumber: 6
+        color: FFFFFF
+      -
+        description: 'Right Flipper Button Bottom'
+        number: 1
+        ledNumber: 4
+        color: 004AFF
+      -
+        description: 'Coin 3'
+        number: 1
+        ledNumber: 7
+        color: FFFFFF
+      -
+        description: 'Start Button'
+        number: 1
+        ledNumber: 2
+        color: FF7F00
+    effects:
+      -
+        description: 'Exprerssion Lights'
+        color: 0000FF
+        duration: 0
+        effect: 22
+        reverse: 0
+        segment: 1
+        speed: 0
+        mode: 0
+        priority: 1
+        repeat: -1
+        trigger:
+          -
+            source: S
+            number: 1
+            value: 1
+  -
+    description: 'Backboard & Bumpers'
+    board: 2
+    port: 29
+    ledType: GBR
+    brightness: 196
+    amount: 35
+    lightUp: 80
+    afterGlow: 300
+    segments: {  }
+    lamps:
+      -
+        description: 'Left Jet Bumper 1'
+        number: 40
+        ledNumber: 0
+        color: AAFF00
+      -
+        description: 'Left Jet Bumper 2'
+        number: 40
+        ledNumber: 1
+        color: AAFF00
+      -
+        description: 'Left Jet Bumper 3'
+        number: 40
+        ledNumber: 2
+        color: AAFF00
+      -
+        description: 'Left Jet Bumper 4'
+        number: 40
+        ledNumber: 3
+        color: AAFF00
+      -
+        description: 'Left Jet Bumper 5'
+        number: 40
+        ledNumber: 4
+        color: AAFF00
+      -
+        description: 'Left Jet Bumper 6'
+        number: 40
+        ledNumber: 5
+        color: AAFF00
+      -
+        description: 'Right Jet Bumper 3'
+        number: 41
+        ledNumber: 16
+        color: AAFF00
+      -
+        description: 'Right Jet Bumper 1'
+        number: 41
+        ledNumber: 14
+        color: A9FF00
+      -
+        description: 'Right Jet Bumper 2'
+        number: 41
+        ledNumber: 15
+        color: AAFF00
+      -
+        description: 'Right Jet Bumper 4'
+        number: 41
+        ledNumber: 17
+        color: AAFF00
+      -
+        description: 'Right Jet Bumper 5'
+        number: 41
+        ledNumber: 18
+        color: AAFF00
+      -
+        description: 'Right Jet Bumper 6'
+        number: 41
+        ledNumber: 19
+        color: AAFF00
+      -
+        description: 'Lower Jet Bumper 2'
+        number: 42
+        ledNumber: 8
+        color: AAFF00
+      -
+        description: 'Lower Jet Bumper 3'
+        number: 42
+        ledNumber: 9
+        color: AAFF00
+      -
+        description: 'Lower Jet Bumper 1'
+        number: 42
+        ledNumber: 7
+        color: AAFF00
+      -
+        description: 'Lower Jet Bumper 4'
+        number: 42
+        ledNumber: 10
+        color: AAFF00
+      -
+        description: 'Lower Jet Bumper 5'
+        number: 42
+        ledNumber: 11
+        color: AAFF00
+      -
+        description: 'Lower Jet Bumper 6'
+        number: 42
+        ledNumber: 12
+        color: AAFF00
+      -
+        description: '1 Can Play'
+        number: 50
+        ledNumber: 26
+        color: 99C1F1
+      -
+        description: '2 Can Play'
+        number: 51
+        ledNumber: 28
+        color: 99C1F1
+      -
+        description: '3 Can Play'
+        number: 52
+        ledNumber: 30
+        color: 99C1F1
+      -
+        description: '4 Can Play'
+        number: 53
+        ledNumber: 32
+        color: 99C1F1
+      -
+        description: Match
+        number: 54
+        ledNumber: 23
+        color: FFFFFF
+      -
+        description: 'Ball In Play'
+        number: 55
+        ledNumber: 24
+        color: FFFFFF
+      -
+        description: '#1 Player Up'
+        number: 57
+        ledNumber: 27
+        color: FF0000
+      -
+        description: '#2 Player Up'
+        number: 58
+        ledNumber: 29
+        color: FF0000
+      -
+        description: '#3 Player Up'
+        number: 59
+        ledNumber: 31
+        color: FF0000
+      -
+        description: '#4 Player Up'
+        number: 60
+        ledNumber: 33
+        color: FF0000
+      -
+        description: Tilt
+        number: 61
+        ledNumber: 34
+        color: FFFFFF
+      -
+        description: 'Game Over'
+        number: 62
+        ledNumber: 22
+        color: FFFFFF
+      -
+        description: 'Shoot Again'
+        number: 63
+        ledNumber: 25
+        color: FFFFFF
+      -
+        description: 'High Score'
+        number: 64
+        ledNumber: 21
+        color: FFFFFF
+    flashers: {  }
+    gi:
+      -
+        description: 'Left Jet Bumper GI'
+        number: 40
+        ledNumber: 6
+        color: FFFFFF
+      -
+        description: 'Right Jet Bumper GI'
+        number: 41
+        ledNumber: 20
+        color: FFFFFF
+      -
+        description: 'Lower Jet Bumper 13'
+        number: 42
+        ledNumber: 13
+        color: FFFFFF
+    effects: {  }
+  -
+    description: 'Flash Playfield Lamps'
+    board: 3
+    port: 29
+    ledType: GBR
+    brightness: 128
+    amount: 51
+    lightUp: 80
+    afterGlow: 300
+    segments: {  }
+    lamps:
+      -
+        description: '1000 Bonus'
+        number: 2
+        ledNumber: 0
+        color: FF7F00
+      -
+        description: '2000 Bonus'
+        number: 3
+        ledNumber: 1
+        color: FFFF00
+      -
+        description: '3000 Bonus'
+        number: 4
+        ledNumber: 2
+        color: 7FFF00
+      -
+        description: '4000 Bonus'
+        number: 5
+        ledNumber: 4
+        color: 00FF00
+      -
+        description: '5000 Bonus'
+        number: 6
+        ledNumber: 5
+        color: 00FF7F
+      -
+        description: '6000 Bonus'
+        number: 7
+        ledNumber: 6
+        color: 00FFFF
+      -
+        description: '7000 Bonus'
+        number: 8
+        ledNumber: 8
+        color: 007FFF
+      -
+        description: '8000 Bonus'
+        number: 9
+        ledNumber: 9
+        color: 0000FF
+      -
+        description: '9000 Bonus'
+        number: 10
+        ledNumber: 10
+        color: 7F00FF
+      -
+        description: '10000 Bonus'
+        number: 12
+        ledNumber: 13
+        color: FF00FF
+      -
+        description: '20000 Bonus'
+        number: 13
+        ledNumber: 12
+        color: FF008B
+      -
+        description: 2X
+        number: 14
+        ledNumber: 7
+        color: 00FF00
+      -
+        description: 3X
+        number: 15
+        ledNumber: 3
+        color: 00FF00
+      -
+        description: 'Same Player Shoots Again'
+        number: 16
+        ledNumber: 50
+        color: FF7F00
+      -
+        description: Thunder
+        number: 17
+        ledNumber: 14
+        color: FF0000
+      -
+        description: Lightning
+        number: 18
+        ledNumber: 15
+        color: FF0000
+      -
+        description: Tempest
+        number: 19
+        ledNumber: 16
+        color: FF0000
+      -
+        description: 'Super Flash'
+        number: 20
+        ledNumber: 11
+        color: FF0000
+      -
+        description: 'Left Special'
+        number: 21
+        ledNumber: 48
+        color: FF0000
+      -
+        description: 'Right Special'
+        number: 22
+        ledNumber: 29
+        color: FF0000
+      -
+        description: 'Left 3 Bonus Advance'
+        number: 23
+        ledNumber: 47
+        color: FFFF00
+      -
+        description: 'Right 3 Bonus Advance'
+        number: 24
+        ledNumber: 28
+        color: FFFF00
+      -
+        description: '5-Bank 5 Arrow (Bottom)'
+        number: 25
+        ledNumber: 20
+        color: FF0000
+      -
+        description: '5-Bank 4 Arrow'
+        number: 26
+        ledNumber: 21
+        color: FF0000
+      -
+        description: '5-Bank 3 Arrow'
+        number: 27
+        ledNumber: 22
+        color: FF0000
+      -
+        description: '5-Bank 2 Arrow'
+        number: 28
+        ledNumber: 23
+        color: FF0000
+      -
+        description: '5-Bank 1 Arrow (Top)'
+        number: 29
+        ledNumber: 24
+        color: FF0000
+      -
+        description: '3-Bank Right Arrow'
+        number: 30
+        ledNumber: 27
+        color: FF0000
+      -
+        description: 'Clone of 3-Bank Center Arrow'
+        number: 31
+        ledNumber: 26
+        color: FF0000
+      -
+        description: '3-Bank Left Arrow'
+        number: 32
+        ledNumber: 25
+        color: FF0000
+      -
+        description: '5000 Eject Hole'
+        number: 33
+        ledNumber: 31
+        color: FF7F00
+      -
+        description: '1000 Eject Hole'
+        number: 34
+        ledNumber: 32
+        color: FF7F00
+      -
+        description: 'Extra Ball Eject Hole'
+        number: 35
+        ledNumber: 33
+        color: FF7F00
+      -
+        description: '"1" Rollover'
+        number: 36
+        ledNumber: 41
+        color: 7F00FF
+      -
+        description: '"2" Rollover'
+        number: 37
+        ledNumber: 40
+        color: 7F00FF
+      -
+        description: '"3" Rollover'
+        number: 38
+        ledNumber: 39
+        color: 7F00FF
+      -
+        description: '"4" Rollover'
+        number: 39
+        ledNumber: 38
+        color: 7F00FF
+      -
+        description: 'Upper Left Outer Arrow'
+        number: 43
+        ledNumber: 45
+        color: FF7F00
+      -
+        description: 'Upper Left Inner Arrow'
+        number: 43
+        ledNumber: 44
+        color: FF7F00
+      -
+        description: Spinner
+        number: 44
+        ledNumber: 37
+        color: FF7F00
+      -
+        description: 'Upper Right Star Rollover'
+        number: 44
+        ledNumber: 36
+        color: FF0000
+      -
+        description: 'Lower Right Star Rollover'
+        number: 45
+        ledNumber: 34
+        color: FF0000
+      -
+        description: 'Center Right Star Rollover'
+        number: 45
+        ledNumber: 35
+        color: FF0000
+      -
+        description: Credits
+        number: 56
+        ledNumber: 49
+        color: FFFFFF
+      -
+        description: 'Right Target (Custom)'
+        number: 100
+        ledNumber: 30
+        color: FF7F00
+      -
+        description: 'Left Target (Custom)'
+        number: 101
+        ledNumber: 46
+        color: FF7F00
+    flashers:
+      -
+        description: Flash
+        number: 6
+        ledNumber: 17
+        color: FFFFFF
+      -
+        description: Flash
+        number: 6
+        ledNumber: 18
+        color: FFFFFF
+      -
+        description: Flash
+        number: 6
+        ledNumber: 19
+        color: FFFFFF
+    gi:
+      -
+        description: 'Upper Left Outer Star Rollover (GI)'
+        number: 1
+        ledNumber: 43
+        color: FF0000
+      -
+        description: 'Upper Left Inner Star Rollover (GI)'
+        number: 1
+        ledNumber: 42
+        color: FF0000
+    effects: {  }
+  -
+    description: 'Flash GI'
+    board: 4
+    port: 29
+    ledType: GBR
+    brightness: 196
+    amount: 31
+    lightUp: 0
+    afterGlow: 0
+    segments: {  }
+    lamps: {  }
+    flashers: {  }
+    gi:
+      -
+        description: 'Flash GI Right Top'
+        number: 1
+        ledNumber: 11
+        color: 99C1F1
+      -
+        description: 'Lower 5-Bank'
+        number: 1
+        ledNumber: 25
+        color: FFFF00
+      -
+        description: 'Flash GI Right Flipper Lane Guide Lower'
+        number: 1
+        ledNumber: 0
+        color: 99C1F1
+      -
+        description: 'Flash GI Upper Left Standup'
+        number: 1
+        ledNumber: 18
+        color: 99C1F1
+      -
+        description: 'Flash GI Right Flipper Lane Guide Upper'
+        number: 1
+        ledNumber: 1
+        color: 99C1F1
+      -
+        description: 'Flash GI Right Target'
+        number: 1
+        ledNumber: 4
+        color: 99C1F1
+      -
+        description: 'Flash GI Right Kicker Upper'
+        number: 1
+        ledNumber: 3
+        color: 99C1F1
+      -
+        description: 'Flash GI 4 Rollover'
+        number: 1
+        ledNumber: 13
+        color: 99C1F1
+      -
+        description: 'Flash GI Top Right Standup'
+        number: 1
+        ledNumber: 12
+        color: 99C1F1
+      -
+        description: 'Flash GI Right Kicker Upper'
+        number: 1
+        ledNumber: 28
+        color: 99C1F1
+      -
+        description: 'Left Orbit Entrance'
+        number: 1
+        ledNumber: 23
+        color: 99C1F1
+      -
+        description: 'Flash GI Right Kicker Lower'
+        number: 1
+        ledNumber: 2
+        color: 99C1F1
+      -
+        description: 'Flash GI Outside Upper Left Star Rollover'
+        number: 1
+        ledNumber: 22
+        color: 99C1F1
+      -
+        description: 'Flash GI Left Flipper Lane Guide Lower'
+        number: 1
+        ledNumber: 30
+        color: 99C1F1
+      -
+        description: 'Flash GI 2 Rollover'
+        number: 1
+        ledNumber: 15
+        color: 99C1F1
+      -
+        description: 'Flash GI Left Top 2'
+        number: 1
+        ledNumber: 21
+        color: FFFF00
+      -
+        description: 'Flash GI Left Top 1'
+        number: 1
+        ledNumber: 20
+        color: FFFF00
+      -
+        description: 'Flash GI Upper Left Inside Lane'
+        number: 1
+        ledNumber: 19
+        color: FF7800
+      -
+        description: 'Flash GI Left Flipper Lane Guide Upper'
+        number: 1
+        ledNumber: 29
+        color: 99C1F1
+      -
+        description: 'Flash GI 1 Rollover'
+        number: 1
+        ledNumber: 16
+        color: FF0000
+      -
+        description: 'Flash GI Left Kicker Upper'
+        number: 1
+        ledNumber: 27
+        color: 99C1F1
+      -
+        description: 'Upper 5-Bank'
+        number: 1
+        ledNumber: 24
+        color: 99C1F1
+      -
+        description: 'Flash GI Right Side Standup Upper Lower'
+        number: 1
+        ledNumber: 9
+        color: 99C1F1
+      -
+        description: 'Left Target'
+        number: 1
+        ledNumber: 26
+        color: 99C1F1
+      -
+        description: 'Flash GI 3 - Bank Left'
+        number: 1
+        ledNumber: 8
+        color: FF0000
+      -
+        description: 'Flash GI 1 Rollover Bottom'
+        number: 1
+        ledNumber: 17
+        color: 99C1F1
+      -
+        description: 'Flash GI Extra Ball'
+        number: 1
+        ledNumber: 6
+        color: 99C1F1
+      -
+        description: 'Flash GI Right Side Standup Upper Upper'
+        number: 1
+        ledNumber: 10
+        color: 99C1F1
+      -
+        description: 'Flash GI 3 Rollover'
+        number: 1
+        ledNumber: 14
+        color: FF0000
+      -
+        description: 'Flash GI Right Upper Flipper'
+        number: 1
+        ledNumber: 5
+        color: 99C1F1
+      -
+        description: 'Flash GI 3 - Bank Right'
+        number: 1
+        ledNumber: 7
+        color: FF0000
+    effects:
+      -
+        description: 'GI Flash'
+        color: 0000FF
+        duration: 1000
+        effect: 24
+        reverse: 0
+        segment: 0
+        speed: 0
+        mode: 0
+        priority: 1
+        repeat: 0
+        trigger:
+          -
+            source: L
+            number: 6
+            value: 1
+pwmOutput:
+  -
+    description: 'Ball Release'
+    type: coil
+    number: 1
+    board: 4
+    port: 20
+    power: 80
+    holdPower: 0
+    holdPowerActivationTime: 0
+    minPulseTime: 0
+    maxPulseTime: 150
+    fastFlipSwitch: 0
+    effects: {  }
+  -
+    description: '5-Bank 1-3 (Top) Reset'
+    type: coil
+    number: 2
+    board: 3
+    port: 21
+    power: 128
+    holdPower: 0
+    holdPowerActivationTime: 0
+    minPulseTime: 0
+    maxPulseTime: 150
+    fastFlipSwitch: 0
+    effects: {  }
+  -
+    description: '5-Bank 4, 5 (Bottom) Reset'
+    type: coil
+    number: 3
+    board: 2
+    port: 21
+    power: 128
+    holdPower: 0
+    holdPowerActivationTime: 0
+    minPulseTime: 0
+    maxPulseTime: 150
+    fastFlipSwitch: 0
+    effects: {  }
+  -
+    description: '3-Bank Reset'
+    type: coil
+    number: 4
+    board: 2
+    port: 22
+    power: 128
+    holdPower: 0
+    holdPowerActivationTime: 0
+    minPulseTime: 0
+    maxPulseTime: 150
+    fastFlipSwitch: 0
+    effects: {  }
+  -
+    description: 'Eject Hole'
+    type: coil
+    number: 5
+    board: 2
+    port: 23
+    power: 128
+    holdPower: 0
+    holdPowerActivationTime: 0
+    minPulseTime: 0
+    maxPulseTime: 150
+    fastFlipSwitch: 0
+    effects: {  }
+  -
+    description: 'Credit Knocker'
+    type: coil
+    number: 14
+    board: 1
+    port: 20
+    power: 196
+    holdPower: 0
+    holdPowerActivationTime: 0
+    minPulseTime: 0
+    maxPulseTime: 80
+    fastFlipSwitch: 0
+    effects: {  }
+  -
+    description: 'Right Jet Bumper'
+    type: coil
+    number: 17
+    board: 3
+    port: 20
+    power: 128
+    holdPower: 0
+    holdPowerActivationTime: 0
+    minPulseTime: 100
+    maxPulseTime: 150
+    fastFlipSwitch: 19
+    effects: {  }
+  -
+    description: 'Left Jet Bumper'
+    type: coil
+    number: 18
+    board: 2
+    port: 24
+    power: 128
+    holdPower: 0
+    holdPowerActivationTime: 0
+    minPulseTime: 100
+    maxPulseTime: 150
+    fastFlipSwitch: 18
+    effects: {  }
+  -
+    description: 'Jet Bumper (Lower)'
+    type: coil
+    number: 19
+    board: 4
+    port: 27
+    power: 128
+    holdPower: 0
+    holdPowerActivationTime: 0
+    minPulseTime: 100
+    maxPulseTime: 150
+    fastFlipSwitch: 20
+    effects: {  }
+  -
+    description: 'Right Kicker'
+    type: coil
+    number: 20
+    board: 4
+    port: 21
+    power: 128
+    holdPower: 0
+    holdPowerActivationTime: 0
+    minPulseTime: 100
+    maxPulseTime: 150
+    fastFlipSwitch: 42
+    effects: {  }
+  -
+    description: 'Left Kicker'
+    type: coil
+    number: 21
+    board: 2
+    port: 20
+    power: 128
+    holdPower: 0
+    holdPowerActivationTime: 0
+    minPulseTime: 100
+    maxPulseTime: 150
+    fastFlipSwitch: 41
+    effects: {  }
+  -
+    description: Shaker
+    type: shaker
+    number: 100
+    board: 1
+    port: 19
+    power: 128
+    holdPower: 0
+    holdPowerActivationTime: 0
+    minPulseTime: 0
+    maxPulseTime: 0
+    fastFlipSwitch: 0
+    effects:
+      -
+        description: 'Jet Bumper Shaker'
+        duration: 0
+        effect: 3
+        frequency: 4
+        maxIntensity: 128
+        minIntensity: 0
+        mode: 0
+        priority: 1
+        repeat: 0
+        trigger:
+          -
+            source: W
+            number: 18
+            value: 1
+          -
+            source: W
+            number: 19
+            value: 1
+          -
+            source: W
+            number: 20
+            value: 1
+      -
+        description: 'Flash Shaker'
+        duration: 1000
+        effect: 1
+        frequency: 4
+        maxIntensity: 192
+        minIntensity: 0
+        mode: 0
+        priority: 2
+        repeat: 0
+        trigger:
+          -
+            source: S
+            number: 6
+            value: 1
+  -
+    description: 'Left Flipper Hold'
+    type: coil
+    number: 121
+    board: 2
+    port: 19
+    power: 255
+    holdPower: 0
+    holdPowerActivationTime: 0
+    minPulseTime: 0
+    maxPulseTime: 0
+    fastFlipSwitch: 201
+    effects: {  }
+  -
+    description: 'Left Flipper Power'
+    type: coil
+    number: 122
+    board: 2
+    port: 26
+    power: 164
+    holdPower: 0
+    holdPowerActivationTime: 0
+    minPulseTime: 0
+    maxPulseTime: 50
+    fastFlipSwitch: 201
+    effects: {  }
+  -
+    description: 'Right Upper Flipper'
+    type: coil
+    number: 131
+    board: 3
+    port: 23
+    power: 164
+    holdPower: 128
+    holdPowerActivationTime: 50
+    minPulseTime: 0
+    maxPulseTime: 0
+    fastFlipSwitch: 202
+    effects: {  }
+  -
+    description: 'Right Flipper Hold'
+    type: coil
+    number: 141
+    board: 4
+    port: 22
+    power: 255
+    holdPower: 0
+    holdPowerActivationTime: 0
+    minPulseTime: 0
+    maxPulseTime: 0
+    fastFlipSwitch: 203
+    effects: {  }
+  -
+    description: 'Right Flipper Power'
+    type: coil
+    number: 142
+    board: 4
+    port: 23
+    power: 164
+    holdPower: 0
+    holdPowerActivationTime: 0
+    minPulseTime: 0
+    maxPulseTime: 50
+    fastFlipSwitch: 203
+    effects: {  }
+mechs: {  }

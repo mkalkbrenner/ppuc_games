@@ -4,12 +4,12 @@
             "href": "media\/lamp_locations"
         },
         "self": {
-            "href": "_dcd\/media\/6"
+            "href": "_dcd\/media\/5"
         }
     },
     "mid": [
         {
-            "value": 6
+            "value": 5
         }
     ],
     "uuid": [
@@ -66,7 +66,7 @@
                         "href": "file\/file"
                     },
                     "self": {
-                        "href": "_dcd\/file\/8"
+                        "href": "_dcd\/file\/1"
                     }
                 },
                 "uuid": [
@@ -88,7 +88,7 @@
                         "href": "file\/file"
                     },
                     "self": {
-                        "href": "_dcd\/file\/8"
+                        "href": "_dcd\/file\/1"
                     }
                 },
                 "uuid": [
@@ -137,6 +137,7 @@
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1761170086
+        "export_timestamp": 1775498229,
+        "sort_key": 5
     }
 }
