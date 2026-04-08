@@ -209,31 +209,31 @@ switches:
     number: 32
     board: 3
     port: 18
-    debounce: 10
+    debounce: 2
   -
     description: '5 - Bank 2 Drop Target'
     number: 33
     board: 2
     port: 15
-    debounce: 10
+    debounce: 2
   -
     description: '5 - Bank 3 Drop Target'
     number: 34
     board: 2
     port: 16
-    debounce: 10
+    debounce: 2
   -
     description: '5 - Bank 4 Drop Target'
     number: 35
     board: 2
     port: 17
-    debounce: 10
+    debounce: 2
   -
     description: '5 - Bank, 5 Drop Target (Bottom)'
     number: 36
     board: 2
     port: 18
-    debounce: 10
+    debounce: 2
   -
     description: '5 - Bank Series'
     number: 37
@@ -452,16 +452,6 @@ ledStripes:
         ledNumber: 0
         color: AAFF00
       -
-        description: 'Left Jet Bumper 2'
-        number: 40
-        ledNumber: 1
-        color: AAFF00
-      -
-        description: 'Left Jet Bumper 3'
-        number: 40
-        ledNumber: 2
-        color: AAFF00
-      -
         description: 'Left Jet Bumper 4'
         number: 40
         ledNumber: 3
@@ -477,9 +467,24 @@ ledStripes:
         ledNumber: 5
         color: AAFF00
       -
+        description: 'Left Jet Bumper 2'
+        number: 40
+        ledNumber: 1
+        color: AAFF00
+      -
+        description: 'Left Jet Bumper 3'
+        number: 40
+        ledNumber: 2
+        color: AAFF00
+      -
         description: 'Right Jet Bumper 3'
         number: 41
         ledNumber: 16
+        color: AAFF00
+      -
+        description: 'Right Jet Bumper 5'
+        number: 41
+        ledNumber: 18
         color: AAFF00
       -
         description: 'Right Jet Bumper 1'
@@ -492,19 +497,14 @@ ledStripes:
         ledNumber: 15
         color: AAFF00
       -
-        description: 'Right Jet Bumper 4'
-        number: 41
-        ledNumber: 17
-        color: AAFF00
-      -
-        description: 'Right Jet Bumper 5'
-        number: 41
-        ledNumber: 18
-        color: AAFF00
-      -
         description: 'Right Jet Bumper 6'
         number: 41
         ledNumber: 19
+        color: AAFF00
+      -
+        description: 'Right Jet Bumper 4'
+        number: 41
+        ledNumber: 17
         color: AAFF00
       -
         description: 'Lower Jet Bumper 2'
@@ -512,19 +512,19 @@ ledStripes:
         ledNumber: 8
         color: AAFF00
       -
+        description: 'Lower Jet Bumper 4'
+        number: 42
+        ledNumber: 10
+        color: AAFF00
+      -
         description: 'Lower Jet Bumper 3'
         number: 42
         ledNumber: 9
         color: AAFF00
       -
-        description: 'Lower Jet Bumper 1'
+        description: 'Lower Jet Bumper 6'
         number: 42
-        ledNumber: 7
-        color: AAFF00
-      -
-        description: 'Lower Jet Bumper 4'
-        number: 42
-        ledNumber: 10
+        ledNumber: 12
         color: AAFF00
       -
         description: 'Lower Jet Bumper 5'
@@ -532,9 +532,9 @@ ledStripes:
         ledNumber: 11
         color: AAFF00
       -
-        description: 'Lower Jet Bumper 6'
+        description: 'Lower Jet Bumper 1'
         number: 42
-        ledNumber: 12
+        ledNumber: 7
         color: AAFF00
       -
         description: '1 Can Play'
