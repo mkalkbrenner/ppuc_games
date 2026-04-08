@@ -4,12 +4,12 @@
             "href": "node\/pwm_effect"
         },
         "self": {
-            "href": "_dcd\/node\/52"
+            "href": "_dcd\/node\/13"
         }
     },
     "nid": [
         {
-            "value": 52
+            "value": 13
         }
     ],
     "uuid": [
@@ -77,7 +77,7 @@
                         "href": "node\/pwm_device"
                     },
                     "self": {
-                        "href": "_dcd\/node\/184"
+                        "href": "_dcd\/node\/152"
                     }
                 },
                 "uuid": [
@@ -181,7 +181,7 @@
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1775498229,
-        "sort_key": 52
+        "export_timestamp": 1775669788,
+        "sort_key": 13
     }
 }

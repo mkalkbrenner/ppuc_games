@@ -4,12 +4,12 @@
             "href": "node\/pwm_device"
         },
         "self": {
-            "href": "_dcd\/node\/124"
+            "href": "_dcd\/node\/78"
         }
     },
     "nid": [
         {
-            "value": 124
+            "value": 78
         }
     ],
     "uuid": [
@@ -77,7 +77,7 @@
                         "href": "node\/switch"
                     },
                     "self": {
-                        "href": "_dcd\/node\/166"
+                        "href": "_dcd\/node\/133"
                     }
                 },
                 "uuid": [
@@ -94,7 +94,7 @@
                         "href": "node\/i_o_board"
                     },
                     "self": {
-                        "href": "_dcd\/node\/109"
+                        "href": "_dcd\/node\/75"
                     }
                 },
                 "uuid": [
@@ -211,7 +211,7 @@
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1775498229,
-        "sort_key": 124
+        "export_timestamp": 1775669788,
+        "sort_key": 78
     }
 }

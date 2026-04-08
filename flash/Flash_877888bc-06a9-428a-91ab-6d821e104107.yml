@@ -185,19 +185,19 @@ switches:
     number: 28
     board: 3
     port: 17
-    debounce: 10
+    debounce: 2
   -
     description: '3 - Bank, Center Drop Target'
     number: 29
     board: 3
     port: 16
-    debounce: 10
+    debounce: 2
   -
     description: '3 - Bank, Left Drop Target'
     number: 30
     board: 3
     port: 15
-    debounce: 10
+    debounce: 2
   -
     description: '3 - Bank, Series'
     number: 31
@@ -317,19 +317,19 @@ switches:
     number: 201
     board: 2
     port: 3
-    debounce: 10
+    debounce: 2
   -
     description: 'Right Upper Flipper Button'
     number: 202
     board: 3
     port: 3
-    debounce: 10
+    debounce: 2
   -
     description: 'Right Flipper Button'
     number: 203
     board: 4
     port: 3
-    debounce: 10
+    debounce: 2
   -
     description: Enter
     number: 243

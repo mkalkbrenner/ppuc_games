@@ -4,12 +4,12 @@
             "href": "node\/switch"
         },
         "self": {
-            "href": "_dcd\/node\/100"
+            "href": "_dcd\/node\/66"
         }
     },
     "nid": [
         {
-            "value": 100
+            "value": 66
         }
     ],
     "uuid": [
@@ -77,7 +77,7 @@
                         "href": "node\/i_o_board"
                     },
                     "self": {
-                        "href": "_dcd\/node\/213"
+                        "href": "_dcd\/node\/184"
                     }
                 },
                 "uuid": [
@@ -155,7 +155,7 @@
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1775498229,
-        "sort_key": 100
+        "export_timestamp": 1775669788,
+        "sort_key": 66
     }
 }

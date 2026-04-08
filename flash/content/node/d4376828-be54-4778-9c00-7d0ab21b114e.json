@@ -4,12 +4,12 @@
             "href": "node\/switch"
         },
         "self": {
-            "href": "_dcd\/node\/106"
+            "href": "_dcd\/node\/72"
         }
     },
     "nid": [
         {
-            "value": 106
+            "value": 72
         }
     ],
     "uuid": [
@@ -77,7 +77,7 @@
                         "href": "node\/i_o_board"
                     },
                     "self": {
-                        "href": "_dcd\/node\/213"
+                        "href": "_dcd\/node\/184"
                     }
                 },
                 "uuid": [
@@ -109,7 +109,7 @@
     ],
     "changed": [
         {
-            "value": "2026-04-06T17:20:22+00:00",
+            "value": "2026-04-08T12:57:14+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -140,7 +140,7 @@
     ],
     "field_debounce": [
         {
-            "value": 10
+            "value": 2
         }
     ],
     "field_number": [
@@ -155,7 +155,7 @@
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1775498229,
-        "sort_key": 106
+        "export_timestamp": 1775669788,
+        "sort_key": 72
     }
 }

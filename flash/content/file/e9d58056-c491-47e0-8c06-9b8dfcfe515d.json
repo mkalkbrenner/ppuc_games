@@ -4,12 +4,12 @@
             "href": "file\/file"
         },
         "self": {
-            "href": "_dcd\/file\/5"
+            "href": "_dcd\/file\/4"
         }
     },
     "fid": [
         {
-            "value": 5
+            "value": 4
         }
     ],
     "uuid": [
@@ -85,7 +85,7 @@
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1775498229,
-        "sort_key": 5
+        "export_timestamp": 1775669788,
+        "sort_key": 4
     }
 }
