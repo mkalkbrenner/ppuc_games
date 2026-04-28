@@ -48,8 +48,8 @@
     ],
     "uri": [
         {
-            "value": "public:\/\/lamp_locations\/Flash_lamp_matrix.png",
-            "url": "\/sites\/default\/files\/lamp_locations\/Flash_lamp_matrix.png"
+            "value": "public:\/\/lamp_locations\/Flash_lamp_matrix_0_0.png",
+            "url": "\/sites\/default\/files\/lamp_locations\/Flash_lamp_matrix_0_0.png"
         }
     ],
     "filemime": [
@@ -85,7 +85,7 @@
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1775669788,
+        "export_timestamp": 1777308901,
         "sort_key": 1
     }
 }

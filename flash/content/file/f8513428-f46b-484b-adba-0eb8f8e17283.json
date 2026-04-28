@@ -48,8 +48,8 @@
     ],
     "uri": [
         {
-            "value": "public:\/\/manuals\/Williams_1978_Flash_Manual_March_1979_no_schematics.pdf",
-            "url": "\/sites\/default\/files\/manuals\/Williams_1978_Flash_Manual_March_1979_no_schematics.pdf"
+            "value": "public:\/\/manuals\/Williams_1978_Flash_Manual_March_1979_no_schematics_0_0.pdf",
+            "url": "\/sites\/default\/files\/manuals\/Williams_1978_Flash_Manual_March_1979_no_schematics_0_0.pdf"
         }
     ],
     "filemime": [
@@ -85,7 +85,7 @@
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1775669788,
+        "export_timestamp": 1777308901,
         "sort_key": 2
     }
 }

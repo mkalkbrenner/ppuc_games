@@ -29,337 +29,393 @@ switches:
     number: 1
     board: 1
     port: 3
-    debounce: 10
+    debounce: 20
+    debounceMode: slowStable
   -
     description: 'Credit (Start) Button'
     number: 3
     board: 1
     port: 5
     debounce: 10
+    debounceMode: standard
   -
     description: 'Right Coin Switch'
     number: 4
     board: 1
     port: 6
     debounce: 10
+    debounceMode: standard
   -
     description: 'Center Coin Switch'
     number: 5
     board: 1
     port: 7
     debounce: 10
+    debounceMode: standard
   -
     description: 'Left Coin Switch'
     number: 6
     board: 1
     port: 8
     debounce: 10
+    debounceMode: standard
   -
     description: 'Slam Tilt'
     number: 7
     board: 1
     port: 9
-    debounce: 10
+    debounce: 20
+    debounceMode: slowStable
   -
     description: 'High Score To Date Reset'
     number: 8
     board: 1
     port: 10
     debounce: 10
+    debounceMode: standard
   -
     description: 'Outside Upper Left Star Rollover'
     number: 9
     board: 2
     port: 6
-    debounce: 10
+    debounce: 8
+    debounceMode: standard
   -
     description: 'Inside Upper Left Star Rollover'
     number: 10
     board: 2
     port: 11
     debounce: 10
+    debounceMode: standard
   -
     description: 'Upper Left Standup'
     number: 11
     board: 2
     port: 12
-    debounce: 10
+    debounce: 8
+    debounceMode: fastMomentary
   -
     description: '"1" Rollover'
     number: 12
     board: 2
     port: 10
     debounce: 10
+    debounceMode: standard
   -
     description: '"2" Rollover'
     number: 13
     board: 2
     port: 7
     debounce: 10
+    debounceMode: standard
   -
     description: '"3" Rollover'
     number: 14
     board: 2
     port: 9
     debounce: 10
+    debounceMode: standard
   -
     description: '"4" Rollover'
     number: 15
     board: 2
     port: 13
     debounce: 10
+    debounceMode: standard
   -
     description: 'Top Right Standup'
     number: 16
     board: 2
     port: 8
-    debounce: 10
+    debounce: 8
+    debounceMode: fastMomentary
   -
     description: Spinner
     number: 17
     board: 3
     port: 7
-    debounce: 10
+    debounce: 3
+    debounceMode: fastMomentary
   -
     description: 'Left Jet Bumber'
     number: 18
     board: 2
     port: 5
-    debounce: 10
+    debounce: 8
+    debounceMode: fastMomentary
   -
     description: 'Right Jet Bumper'
     number: 19
     board: 3
     port: 4
-    debounce: 10
+    debounce: 5
+    debounceMode: fastMomentary
   -
     description: 'Lower Jet Bumper'
     number: 20
     board: 4
     port: 5
-    debounce: 10
+    debounce: 8
+    debounceMode: fastMomentary
   -
     description: 'Upper Right Star Rollover'
     number: 21
     board: 3
     port: 9
-    debounce: 10
+    debounce: 8
+    debounceMode: standard
   -
     description: 'Center Right Star Rollover'
     number: 22
     board: 3
     port: 10
-    debounce: 10
+    debounce: 8
+    debounceMode: standard
   -
     description: 'Lower Right Star Rollover'
     number: 23
     board: 3
     port: 12
-    debounce: 10
+    debounce: 8
+    debounceMode: standard
   -
     description: 'Right Side Standup, Upper'
     number: 24
     board: 3
     port: 8
-    debounce: 10
+    debounce: 8
+    debounceMode: fastMomentary
   -
     description: 'Right Side Standup, Center'
     number: 25
     board: 3
     port: 6
-    debounce: 10
+    debounce: 8
+    debounceMode: fastMomentary
   -
     description: 'Right Side Standup, Lower'
     number: 26
     board: 3
     port: 13
-    debounce: 10
+    debounce: 8
+    debounceMode: fastMomentary
   -
     description: 'Eject Hole'
     number: 27
     board: 3
     port: 11
     debounce: 10
+    debounceMode: slowStable
   -
     description: '3 - Bank, Right Drop Target'
     number: 28
     board: 3
     port: 17
-    debounce: 2
+    debounce: 10
+    debounceMode: standard
   -
     description: '3 - Bank, Center Drop Target'
     number: 29
     board: 3
     port: 16
-    debounce: 2
+    debounce: 10
+    debounceMode: standard
   -
     description: '3 - Bank, Left Drop Target'
     number: 30
     board: 3
     port: 15
-    debounce: 2
+    debounce: 10
+    debounceMode: standard
   -
     description: '3 - Bank, Series'
     number: 31
     board: 3
     port: 14
     debounce: 10
+    debounceMode: slowStable
   -
     description: '5 - Bank, 1 Drop Target (Top)'
     number: 32
     board: 3
     port: 18
-    debounce: 2
+    debounce: 10
+    debounceMode: standard
   -
     description: '5 - Bank 2 Drop Target'
     number: 33
     board: 2
     port: 15
-    debounce: 2
+    debounce: 10
+    debounceMode: standard
   -
     description: '5 - Bank 3 Drop Target'
     number: 34
     board: 2
     port: 16
-    debounce: 2
+    debounce: 10
+    debounceMode: standard
   -
     description: '5 - Bank 4 Drop Target'
     number: 35
     board: 2
     port: 17
-    debounce: 2
+    debounce: 10
+    debounceMode: standard
   -
     description: '5 - Bank, 5 Drop Target (Bottom)'
     number: 36
     board: 2
     port: 18
-    debounce: 2
+    debounce: 10
+    debounceMode: standard
   -
     description: '5 - Bank Series'
     number: 37
     board: 2
     port: 14
     debounce: 10
+    debounceMode: slowStable
   -
     description: '5 - Bank Standup'
     number: 38
     board: 4
     port: 13
     debounce: 10
+    debounceMode: fastMomentary
   -
     description: 'Left Target'
     number: 39
     board: 4
     port: 12
     debounce: 10
+    debounceMode: fastMomentary
   -
     description: 'Right Target'
     number: 40
     board: 3
     port: 5
     debounce: 10
+    debounceMode: fastMomentary
   -
     description: 'Left Kicker'
     number: 41
     board: 2
     port: 4
-    debounce: 10
+    debounce: 8
+    debounceMode: fastMomentary
   -
     description: 'Right Kicker'
     number: 42
     board: 4
     port: 4
     debounce: 10
+    debounceMode: fastMomentary
   -
     description: 'Left Special Rollover'
     number: 43
     board: 4
     port: 9
     debounce: 10
+    debounceMode: standard
   -
     description: 'Left Flipper Return Rollover'
     number: 44
     board: 4
     port: 7
     debounce: 10
+    debounceMode: standard
   -
     description: 'Right Flipper Return Rollover'
     number: 45
     board: 4
     port: 8
     debounce: 10
+    debounceMode: standard
   -
     description: 'Right Special Rollover'
     number: 46
     board: 4
     port: 6
     debounce: 10
+    debounceMode: standard
   -
     description: 'Playfield Tilt'
     number: 47
     board: 4
     port: 10
-    debounce: 10
+    debounce: 20
+    debounceMode: slowStable
   -
     description: Outhole
     number: 48
     board: 4
     port: 11
     debounce: 10
+    debounceMode: slowStable
   -
     description: 'Coin Door Open'
     number: 200
     board: 1
     port: 4
     debounce: 10
+    debounceMode: slowStable
   -
     description: 'Left Flipper Button'
     number: 201
     board: 2
     port: 3
-    debounce: 2
+    debounce: 3
+    debounceMode: fastFlip
   -
     description: 'Right Upper Flipper Button'
     number: 202
     board: 3
     port: 3
-    debounce: 2
+    debounce: 3
+    debounceMode: fastFlip
   -
     description: 'Right Flipper Button'
     number: 203
     board: 4
     port: 3
-    debounce: 2
+    debounce: 3
+    debounceMode: fastFlip
   -
     description: Enter
     number: 243
     board: 1
     port: 15
     debounce: 10
+    debounceMode: standard
   -
     description: 'Sound Diag'
     number: 244
     board: 1
     port: 11
     debounce: 10
+    debounceMode: standard
   -
     description: 'CPU Diag'
     number: 245
     board: 1
     port: 12
     debounce: 10
+    debounceMode: standard
   -
     description: 'Up Down'
     number: 246
     board: 1
     port: 13
     debounce: 10
+    debounceMode: standard
   -
     description: Advance
     number: 247
     board: 1
     port: 14
     debounce: 10
+    debounceMode: standard
 ledStripes:
   -
     description: Cabinet
@@ -418,23 +474,7 @@ ledStripes:
         number: 1
         ledNumber: 2
         color: FF7F00
-    effects:
-      -
-        description: 'Exprerssion Lights'
-        color: 0000FF
-        duration: 0
-        effect: 22
-        reverse: 0
-        segment: 1
-        speed: 0
-        mode: 0
-        priority: 1
-        repeat: -1
-        trigger:
-          -
-            source: S
-            number: 1
-            value: 1
+    effects: {  }
   -
     description: 'Backboard & Bumpers'
     board: 2
@@ -1061,23 +1101,7 @@ ledStripes:
         number: 1
         ledNumber: 7
         color: FF0000
-    effects:
-      -
-        description: 'GI Flash'
-        color: 0000FF
-        duration: 1000
-        effect: 24
-        reverse: 0
-        segment: 0
-        speed: 0
-        mode: 0
-        priority: 1
-        repeat: 0
-        trigger:
-          -
-            source: L
-            number: 6
-            value: 1
+    effects: {  }
 pwmOutput:
   -
     description: 'Ball Release'
@@ -1234,45 +1258,7 @@ pwmOutput:
     minPulseTime: 0
     maxPulseTime: 0
     fastFlipSwitch: 0
-    effects:
-      -
-        description: 'Jet Bumper Shaker'
-        duration: 0
-        effect: 3
-        frequency: 4
-        maxIntensity: 128
-        minIntensity: 0
-        mode: 0
-        priority: 1
-        repeat: 0
-        trigger:
-          -
-            source: W
-            number: 18
-            value: 1
-          -
-            source: W
-            number: 19
-            value: 1
-          -
-            source: W
-            number: 20
-            value: 1
-      -
-        description: 'Flash Shaker'
-        duration: 1000
-        effect: 1
-        frequency: 4
-        maxIntensity: 192
-        minIntensity: 0
-        mode: 0
-        priority: 2
-        repeat: 0
-        trigger:
-          -
-            source: S
-            number: 6
-            value: 1
+    effects: {  }
   -
     description: 'Left Flipper Hold'
     type: coil
