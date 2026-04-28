@@ -93,7 +93,7 @@ switches:
     board: 2
     port: 12
     debounce: 8
-    debounceMode: fastMomentary
+    debounceMode: standard
   -
     description: '"1" Rollover'
     number: 12
@@ -128,35 +128,35 @@ switches:
     board: 2
     port: 8
     debounce: 8
-    debounceMode: fastMomentary
+    debounceMode: standard
   -
     description: Spinner
     number: 17
     board: 3
     port: 7
     debounce: 3
-    debounceMode: fastMomentary
+    debounceMode: standard
   -
     description: 'Left Jet Bumber'
     number: 18
     board: 2
     port: 5
     debounce: 8
-    debounceMode: fastMomentary
+    debounceMode: standard
   -
     description: 'Right Jet Bumper'
     number: 19
     board: 3
     port: 4
-    debounce: 5
-    debounceMode: fastMomentary
+    debounce: 8
+    debounceMode: standard
   -
     description: 'Lower Jet Bumper'
     number: 20
     board: 4
     port: 5
     debounce: 8
-    debounceMode: fastMomentary
+    debounceMode: standard
   -
     description: 'Upper Right Star Rollover'
     number: 21
@@ -184,21 +184,21 @@ switches:
     board: 3
     port: 8
     debounce: 8
-    debounceMode: fastMomentary
+    debounceMode: standard
   -
     description: 'Right Side Standup, Center'
     number: 25
     board: 3
     port: 6
     debounce: 8
-    debounceMode: fastMomentary
+    debounceMode: standard
   -
     description: 'Right Side Standup, Lower'
     number: 26
     board: 3
     port: 13
     debounce: 8
-    debounceMode: fastMomentary
+    debounceMode: standard
   -
     description: 'Eject Hole'
     number: 27
@@ -282,35 +282,35 @@ switches:
     board: 4
     port: 13
     debounce: 10
-    debounceMode: fastMomentary
+    debounceMode: standard
   -
     description: 'Left Target'
     number: 39
     board: 4
     port: 12
     debounce: 10
-    debounceMode: fastMomentary
+    debounceMode: standard
   -
     description: 'Right Target'
     number: 40
     board: 3
     port: 5
     debounce: 10
-    debounceMode: fastMomentary
+    debounceMode: standard
   -
     description: 'Left Kicker'
     number: 41
     board: 2
     port: 4
     debounce: 8
-    debounceMode: fastMomentary
+    debounceMode: standard
   -
     description: 'Right Kicker'
     number: 42
     board: 4
     port: 4
     debounce: 10
-    debounceMode: fastMomentary
+    debounceMode: standard
   -
     description: 'Left Special Rollover'
     number: 43

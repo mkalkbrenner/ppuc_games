@@ -70,6 +70,23 @@
                 "lang": "en"
             }
         ],
+        "relation\/node\/switch\/field_debounce_mode": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "taxonomy_term\/switch_debounce_mode"
+                    },
+                    "self": {
+                        "href": "_dcd\/taxonomy_term\/114"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0d8d70b5-5c4d-486a-a738-cebe3279f67d"
+                    }
+                ]
+            }
+        ],
         "relation\/node\/switch\/field_i_o_board": [
             {
                 "_links": {
@@ -109,7 +126,7 @@
     ],
     "changed": [
         {
-            "value": "2026-04-06T17:17:53+00:00",
+            "value": "2026-04-28T14:07:18+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -155,7 +172,7 @@
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1777308901,
+        "export_timestamp": 1777385785,
         "sort_key": 10
     }
 }
