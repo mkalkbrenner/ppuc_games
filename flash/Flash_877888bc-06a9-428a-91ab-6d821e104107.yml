@@ -85,7 +85,7 @@ switches:
     number: 10
     board: 2
     port: 11
-    debounce: 10
+    debounce: 8
     debounceMode: standard
   -
     description: 'Upper Left Standup'
@@ -99,28 +99,28 @@ switches:
     number: 12
     board: 2
     port: 10
-    debounce: 10
+    debounce: 8
     debounceMode: standard
   -
     description: '"2" Rollover'
     number: 13
     board: 2
     port: 7
-    debounce: 10
+    debounce: 8
     debounceMode: standard
   -
     description: '"3" Rollover'
     number: 14
     board: 2
     port: 9
-    debounce: 10
+    debounce: 8
     debounceMode: standard
   -
     description: '"4" Rollover'
     number: 15
     board: 2
     port: 13
-    debounce: 10
+    debounce: 8
     debounceMode: standard
   -
     description: 'Top Right Standup'
@@ -211,21 +211,21 @@ switches:
     number: 28
     board: 3
     port: 17
-    debounce: 10
+    debounce: 8
     debounceMode: standard
   -
     description: '3 - Bank, Center Drop Target'
     number: 29
     board: 3
     port: 16
-    debounce: 10
+    debounce: 8
     debounceMode: standard
   -
     description: '3 - Bank, Left Drop Target'
     number: 30
     board: 3
     port: 15
-    debounce: 10
+    debounce: 8
     debounceMode: standard
   -
     description: '3 - Bank, Series'
@@ -239,35 +239,35 @@ switches:
     number: 32
     board: 3
     port: 18
-    debounce: 10
+    debounce: 8
     debounceMode: standard
   -
     description: '5 - Bank 2 Drop Target'
     number: 33
     board: 2
     port: 15
-    debounce: 10
+    debounce: 8
     debounceMode: standard
   -
     description: '5 - Bank 3 Drop Target'
     number: 34
     board: 2
     port: 16
-    debounce: 10
+    debounce: 8
     debounceMode: standard
   -
     description: '5 - Bank 4 Drop Target'
     number: 35
     board: 2
     port: 17
-    debounce: 10
+    debounce: 8
     debounceMode: standard
   -
     description: '5 - Bank, 5 Drop Target (Bottom)'
     number: 36
     board: 2
     port: 18
-    debounce: 10
+    debounce: 8
     debounceMode: standard
   -
     description: '5 - Bank Series'
@@ -281,21 +281,21 @@ switches:
     number: 38
     board: 4
     port: 13
-    debounce: 10
+    debounce: 8
     debounceMode: standard
   -
     description: 'Left Target'
     number: 39
     board: 4
     port: 12
-    debounce: 10
+    debounce: 8
     debounceMode: standard
   -
     description: 'Right Target'
     number: 40
     board: 3
     port: 5
-    debounce: 10
+    debounce: 8
     debounceMode: standard
   -
     description: 'Left Kicker'
@@ -309,35 +309,35 @@ switches:
     number: 42
     board: 4
     port: 4
-    debounce: 10
+    debounce: 8
     debounceMode: standard
   -
     description: 'Left Special Rollover'
     number: 43
     board: 4
     port: 9
-    debounce: 10
+    debounce: 8
     debounceMode: standard
   -
     description: 'Left Flipper Return Rollover'
     number: 44
     board: 4
     port: 7
-    debounce: 10
+    debounce: 8
     debounceMode: standard
   -
     description: 'Right Flipper Return Rollover'
     number: 45
     board: 4
     port: 8
-    debounce: 10
+    debounce: 8
     debounceMode: standard
   -
     description: 'Right Special Rollover'
     number: 46
     board: 4
     port: 6
-    debounce: 10
+    debounce: 8
     debounceMode: standard
   -
     description: 'Playfield Tilt'
@@ -474,7 +474,79 @@ ledStripes:
         number: 1
         ledNumber: 2
         color: FF7F00
-    effects: {  }
+    effects:
+      -
+        name: flash-flasher
+        description: 'Flash Flasher'
+        color: 0000FF
+        duration: 800
+        effect: 24
+        reverse: 0
+        segment: 1
+        speed: 800
+        mode: 0
+        priority: 2
+        repeat: 0
+      -
+        name: attract-sparkle
+        description: 'Attract Sparkle'
+        color: '935100'
+        duration: 0
+        effect: 23
+        reverse: 0
+        segment: 1
+        speed: 0
+        mode: 0
+        priority: 1
+        repeat: -2
+      -
+        name: spinner
+        description: Spinner
+        color: FEFFFF
+        duration: 2000
+        effect: 38
+        reverse: 0
+        segment: 1
+        speed: 1200
+        mode: 0
+        priority: 2
+        repeat: 0
+      -
+        name: jet
+        description: Jet
+        color: FEFB00
+        duration: 300
+        effect: 0
+        reverse: 0
+        segment: 1
+        speed: 0
+        mode: 0
+        priority: 2
+        repeat: 0
+      -
+        name: top-rollover
+        description: 'Top Rollovers'
+        color: FEFFFF
+        duration: 1000
+        effect: 46
+        reverse: 0
+        segment: 1
+        speed: 0
+        mode: 0
+        priority: 2
+        repeat: 0
+      -
+        name: eject-hole
+        description: 'Eject Hole'
+        color: E94C49
+        duration: 2000
+        effect: 2
+        reverse: 0
+        segment: 1
+        speed: 0
+        mode: 0
+        priority: 2
+        repeat: 0
   -
     description: 'Backboard & Bumpers'
     board: 2
@@ -1258,7 +1330,29 @@ pwmOutput:
     minPulseTime: 0
     maxPulseTime: 0
     fastFlipSwitch: 0
-    effects: {  }
+    effects:
+      -
+        name: flash-shaker
+        description: 'Flash Shaker'
+        duration: 1000
+        effect: 1
+        frequency: 10
+        maxIntensity: 164
+        minIntensity: 72
+        mode: 0
+        priority: 1
+        repeat: 0
+      -
+        name: jet-shaker
+        description: 'Jet Shaker'
+        duration: 200
+        effect: 3
+        frequency: 10
+        maxIntensity: 148
+        minIntensity: 0
+        mode: 0
+        priority: 1
+        repeat: 0
   -
     description: 'Left Flipper Hold'
     type: coil

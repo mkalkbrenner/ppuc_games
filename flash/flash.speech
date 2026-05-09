@@ -5,11 +5,26 @@
 # Example in flash.rules:
 # O 60010 1 : lamp_rising(23) && !attract
 
-# Highscore
-60010: New highscore!
+50001: Player one.
+50002: Player two.
+50003: Player three.
+50004: Player four.
+
+# Bonus x2
+50005: Double bonus activated!
+
+# Bonus x3
+50006: Tripple bonus activated!
 
 # Game Over
-60009: Game over.
+50009: Game over!
 
 # Extra Ball
-60007: Extra ball!
+50007: Get the extra ball!
+50017: Extra ball!
+
+# Highscore
+50010: New highscore!
+
+# Shoot Again
+50016: Shoot again!

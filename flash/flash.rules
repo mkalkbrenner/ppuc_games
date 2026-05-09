@@ -1,7 +1,15 @@
 # Format:
-# <source> <id> [value] [cooldown=<milliseconds>] : <expression>
+# <source> <id> [value] [cooldown=<milliseconds>] [delay=<milliseconds>] [set_player=<number>]
+#              [clear_player_history=<number>] : <expression>
+# Special source:
+# - S                      silent rule: apply state/history side effects, but emit no external trigger
 #
 # Expression functions:
+# - ball(<number>)          true if the current ball-in-play number matches
+# - player(<number>)        true if the current player matches
+# - history(<id>)           true if this trigger id fired before for the current player
+# - history(<id>, <ms>)     same, limited to the last <ms> milliseconds
+# - sequence(<ms>, <id1>, <id2>, ...) true if those trigger ids fired in order within <ms>
 # - switch(<number>)        current switch state (true when closed)
 # - lamp(<number>)          current lamp state (true when lit)
 # - coil(<number>)          current coil state (true when active)
@@ -15,51 +23,94 @@
 #
 # Operators: !, &&, || and parentheses
 
+# Track balls
+S 110 1 : coil_falling(1) && player(1) && ball(1) && !history(110) && !attract
+S 111 1 : coil_falling(1) && player(1) && ball(2) && !history(111) && !attract
+S 112 1 : coil_falling(1) && player(1) && ball(3) && !history(112) && !attract
+S 113 1 : coil_falling(1) && player(2) && ball(1) && !history(113) && !attract
+S 114 1 : coil_falling(1) && player(2) && ball(2) && !history(114) && !attract
+S 115 1 : coil_falling(1) && player(2) && ball(3) && !history(115) && !attract
+S 116 1 : coil_falling(1) && player(3) && ball(1) && !history(116) && !attract
+S 117 1 : coil_falling(1) && player(3) && ball(2) && !history(117) && !attract
+S 118 1 : coil_falling(1) && player(3) && ball(3) && !history(118) && !attract
+S 119 1 : coil_falling(1) && player(4) && ball(1) && !history(119) && !attract
+S 120 1 : coil_falling(1) && player(4) && ball(2) && !history(120) && !attract
+S 121 1 : coil_falling(1) && player(4) && ball(3) && !history(121) && !attract
+
+O 50001 1 cooldown=3000 : coil_falling(1) && player(1) && !attract
+O 50002 1 cooldown=3000 : coil_falling(1) && player(2) && !attract
+O 50003 1 cooldown=3000 : coil_falling(1) && player(3) && !attract
+O 50004 1 cooldown=3000 : coil_falling(1) && player(4) && !attract
+
 # Ball 1
-D 60001 1 : coil_rising(13) && lamp(42) && !attract
+D 60001 1 : coil_rising(1) && !lamp(16) && ball(1) && !(player(1) && history(110)) && !(player(2) && history(113)) && !(player(3) && history(116)) && !(player(4) && history(119)) && !attract
 
 # Ball 2
-D 60002 1 : coil_rising(13) && lamp(43) && !attract
+D 60002 1 : coil_rising(1) && !lamp(16) && ball(2) && !(player(1) && history(111)) && !(player(2) && history(114)) && !(player(3) && history(117)) && !(player(4) && history(120)) && !attract
 
 # Ball 3
-D 60003 1 : coil_rising(13) && lamp(44) && !attract
+D 60003 1 : coil_rising(1) && !lamp(16) && ball(3) && !(player(1) && history(112)) && !(player(2) && history(115)) && !(player(3) && history(118)) && !(player(4) && history(121)) && !attract
+
+# Ball Save
+D 60004 1 : coil_rising(1) && !lamp(16) && ((ball(3) && ((player(1) && history(110)) || (player(2) && history(113)) || (player(3) && history(116)) || (player(4) && history(119)))) || (ball(2) && ((player(1) && history(111)) || (player(2) && history(114)) || (player(3) && history(117)) || (player(4) && history(120)))) || (ball(1) && ((player(1) && history(112)) || (player(2) && history(115)) || (player(3) && history(118)) || (player(4) && history(121))))) && !attract
 
 # Extra Ball
-D 60007 1 : lamp_rising(22) && !attract
+O 50007 1 delay=3000 : lamp_rising(35) && !attract
+D 60007 1 : lamp_rising(16) && !attract
+O 50017 1 delay=3000 : lamp_rising(16) && !attract
 
 # Shoot Again
-D 60016 1 : lamp_falling(22) && !attract
+D 60016 1 : coil_falling(1) && lamp(16) && !attract
+O 50016 1 : coil_falling(1) && lamp(16) && !attract
 
 # Bonus x2
-D 60005 1 : lamp_rising(20) && !attract
+D 60005 1 : lamp_rising(14) && !attract
+O 50005 1 delay=3000 : lamp_rising(14) && !attract
 
 # Bonus x3
-D 60006 1 : lamp_rising(21) && !attract
+D 60006 1 : lamp_rising(15) && !attract
+O 50006 1 delay=3000 : lamp_rising(15) && !attract
 
 # Flash
 D 60008 1 cooldown=20000 : lamp_rising(5) && attract
 
 # Game Over
-D 60009 1 : lamp_rising(23) && !attract
+D 60009 1 : coil_falling(23)
+O 50009 1 delay=3000 : coil_falling(23)
 
 # Highscore
-D 60010 1 : lamp_rising(23) && !attract
-O 60010 1 : lamp_rising(23) && !attract
+#D 60010 1 : lamp_rising(64)
+#O 50010 1 delay=3000 : lamp_rising(64)
 
-# progress-1.mp4, 30fps
-D 60012 1 : lamp_rising(24) && !attract
+# progress-1.mp4, 30fps (Thunder)
+D 60012 1 : lamp_rising(17) && !attract
 
-# progress-1.mp4, 30fps
-D 60013 1 : lamp_rising(25) && !attract
+# progress-2.mp4, 30fps (Lightning)
+D 60013 1 : lamp_rising(18) && !attract
 
-# progress-1.mp4, 30fps
-D 60014 1 : lamp_rising(26) && !attract
+# progress-3.mp4, 30fps (Tempest)
+D 60014 1 : lamp_rising(19) && !attract
 
-# progress-1.mp4, 30fps
-D 60015 1 : lamp_rising(27) && !attract
+# progress-4.mp4, 30fps (Super Flash)
+D 60015 1 : lamp_rising(20) && !attract
 
 # Special
-D 60017 1 : (switch_rising(13) || switch_rising(12)) && (lamp(2) || lamp(23)) && !attract
+D 60017 1 : (switch_rising(13) || switch_rising(12)) && (lamp(21) || lamp(22)) && !attract
 
 # Tilt
-D 60018 1 : lamp_rising(27)  && !attract
+D 60018 1 : lamp_rising(61) && !attract
+
+F attract-sparkle 1 : attract && !history(200)
+S 200 1 : attract && !history(200)
+
+F flash-flasher 1 cooldown=4000 : coil_rising(6) && !attract
+F flash-shaker 1 cooldown=4000 : coil_rising(6) && !attract
+
+F jet 1 : (coil_rising(17) || coil_rising(18) || coil_rising(19)) && !attract
+F jet-shaker 1 : (coil_rising(17) || coil_rising(18) || coil_rising(19)) && !attract
+
+F eject-hole 1 : switch_rising(27) && !attract
+
+F spinner 1 cooldown=2000 : switch_rising(17) && !attract
+
+F top-rollover 1 : (switch_rising(12) || switch_rising(13) || switch_rising(14) || switch_rising(15)) && !attract

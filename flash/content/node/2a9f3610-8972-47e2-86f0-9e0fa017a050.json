@@ -126,7 +126,7 @@
     ],
     "changed": [
         {
-            "value": "2026-04-27T16:41:26+00:00",
+            "value": "2026-05-09T09:49:31+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -157,7 +157,7 @@
     ],
     "field_debounce": [
         {
-            "value": 10
+            "value": 8
         }
     ],
     "field_number": [
@@ -172,7 +172,7 @@
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1777385785,
+        "export_timestamp": 1778321874,
         "sort_key": 100
     }
 }

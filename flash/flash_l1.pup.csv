@@ -1,0 +1,91 @@
+# Format of a PUP scene line:
+#
+#  1: PUP scene ID
+#  2: number of frames
+#  3: duration of each frame
+#  4: 0 - not interruptable, 1 - interruptable by frame match or PUP event
+#  5: 0 - start immediately, replacing triggering frame, 1 - start after frame duration (see 3)
+#  6: 0 - play once, 1 - loop, >= 2 - repeat x times
+#  7: 0 - no frame groups, >= 2 - create x frame groups (you get x times the number of frames entered in 2 to play changing scenes)
+#  8: 0 - play frame group in order, 1 - play random frame group
+#  9: 0 - no autostart, >= 1 - start this scene after x seconds of inactivity (no new frames), only use once, could be combined with frame groups
+# 10: scene flags
+#   the finish behavior is selected by the low bits: 0, 1 or 2
+#   0 - default: keep the last scene frame visible when the scene finishes
+#       until a new normal frame is identified
+#       if that next identified normal frame would immediately retrigger the
+#       same scene, the scene is not restarted and the preserved last scene
+#       frame remains visible
+#   1 - black screen when scene finished
+#   2 - show last frame before scene started when scene finished
+#   4 - run scene as background
+#       after a background scene finishes with flag 0, its last scene frame
+#       remains visible in the background until a newly identified normal frame
+#       stops that background state; same-trigger continuation does not clear it
+#   8 - replace static content with background scene, only dynamic zones,
+#       sprites and shadows stay in the foreground
+#  16 - continue scene at previous frame when interrupted for less than 8s
+#  32 - with flag 4, replace any non-dynamic pixel whose source brightness is
+#       lower than the maximum input value with the background scene
+#       this means values 0..2 for a 2-bit ROM and 0..14 for a 4-bit ROM are
+#       replaced, while only maximum-brightness pixels stay in the foreground  
+
+# ball1.mp4, 30fps
+60001,151,33,0,0,0,0,0,0,2
+
+# ball2.mp4, 30fps
+60002,151,33,0,0,0,0,0,0,2
+
+# ball3.mp4, 30fps
+60003,151,33,0,0,0,0,0,0,2
+
+# ball-save.mp4, 30fps
+60004,151,33,0,0,0,0,0,0,2
+
+# bonus-x2.mp4, 30fps
+60005,151,33,0,0,0,0,0,0,2
+
+# bonus-x3.mp4, 30fps
+60006,151,33,0,0,0,0,0,0,2
+
+# extra-ball.mp4, 30fps
+60007,151,33,0,0,0,0,0,0,2
+
+# flash.mp4, 30fps
+60008,151,33,0,0,0,0,0,0,2
+
+# game-over.mp4, 30fps
+60009,151,33,0,0,0,0,0,0,2
+
+# highscore.mp4, 30fps
+60010,151,33,0,0,0,0,0,0,2
+
+# multiball.mp4, 30fps
+60011,151,33,0,0,0,0,0,0,2
+
+# progress-1.mp4, 30fps
+60012,151,33,0,0,0,0,0,0,2
+
+# progress-2.mp4, 30fps
+60013,151,33,0,0,0,0,0,0,2
+
+# progress-3.mp4, 30fps
+60014,151,33,0,0,0,0,0,0,2
+
+# progress-4.mp4, 30fps
+60015,151,33,0,0,0,0,0,0,2
+
+# shoot-again.mp4, 30fps
+60016,151,33,0,0,0,0,0,0,2
+
+# special.mp4, 30fps
+60017,151,33,0,0,0,0,0,0,2
+
+# tilt.mp4, 30fps
+60018,151,33,0,0,0,0,0,0,2
+
+# video-mode.mp4, 30fps
+60019,151,33,0,0,0,0,0,0,2
+
+# warning.mp4, 30fps
+60020,151,33,0,0,0,0,0,0,2
