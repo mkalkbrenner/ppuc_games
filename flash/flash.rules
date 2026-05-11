@@ -52,21 +52,21 @@ D 60002 1 : coil_rising(1) && !lamp(16) && ball(2) && !(player(1) && history(111
 D 60003 1 : coil_rising(1) && !lamp(16) && ball(3) && !(player(1) && history(112)) && !(player(2) && history(115)) && !(player(3) && history(118)) && !(player(4) && history(121)) && !attract
 
 # Ball Save
-D 60004 1 : coil_rising(1) && !lamp(16) && ((ball(3) && ((player(1) && history(110)) || (player(2) && history(113)) || (player(3) && history(116)) || (player(4) && history(119)))) || (ball(2) && ((player(1) && history(111)) || (player(2) && history(114)) || (player(3) && history(117)) || (player(4) && history(120)))) || (ball(1) && ((player(1) && history(112)) || (player(2) && history(115)) || (player(3) && history(118)) || (player(4) && history(121))))) && !attract
+D 60004 1 : coil_rising(1) && !lamp(16) && ((ball(1) && ((player(1) && history(110)) || (player(2) && history(113)) || (player(3) && history(116)) || (player(4) && history(119)))) || (ball(2) && ((player(1) && history(111)) || (player(2) && history(114)) || (player(3) && history(117)) || (player(4) && history(120)))) || (ball(3) && ((player(1) && history(112)) || (player(2) && history(115)) || (player(3) && history(118)) || (player(4) && history(121))))) && !attract
 
 # Extra Ball
 O 50007 1 delay=3000 : lamp_rising(35) && !attract
 D 60007 1 : lamp_rising(16) && !attract
 O 50017 1 delay=3000 : lamp_rising(16) && !attract
 F extra-ball 1 : lamp_rising(16) && !attract
-F extra-ball-shaker 1 delay=100 : lamp_rising(16) && !attract
+F extra-ball-shaker 1 cooldown=4000 : lamp_rising(16) && !attract
 
 # Shoot Again
 D 60016 1 : coil_falling(1) && lamp(16) && !attract
 O 50016 1 : coil_falling(1) && lamp(16) && !attract
 
 # Bonus x2
-D 60005 1 : lamp_rising(14) && !attract
+D 60005 1 delay=100 : lamp_rising(14) && !attract
 O 50005 1 delay=3000 : lamp_rising(14) && !attract
 
 # Bonus x3
@@ -97,7 +97,7 @@ D 60014 1 : lamp_rising(19) && !attract
 D 60015 1 : lamp_rising(20) && !attract
 
 # Special
-D 60017 1 : (switch_rising(13) || switch_rising(12)) && (lamp(21) || lamp(22)) && !attract
+D 60017 1 : ((switch_rising(43) && lamp(21)) || (switch_rising(46) && lamp(22))) && !attract
 
 # Tilt
 D 60018 1 : lamp_rising(61) && !attract
@@ -106,7 +106,7 @@ F attract-sparkle 1 : attract && !history(200)
 S 200 1 : attract && !history(200)
 
 F flash-flasher 1 cooldown=4000 : coil_rising(6) && !attract
-F flash-shaker 1 delay=100 cooldown=4000 : coil_rising(6) && !attract
+F flash-shaker 1 cooldown=4000 : coil_rising(6) && !attract
 
 F jet 1 : (switch_rising(18) || switch_rising(19) || switch_rising(20)) && !attract
 F jet-shaker 1 : (switch_rising(18) || switch_rising(19) || switch_rising(20)) && !attract
