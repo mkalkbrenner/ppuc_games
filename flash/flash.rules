@@ -58,6 +58,8 @@ D 60004 1 : coil_rising(1) && !lamp(16) && ((ball(3) && ((player(1) && history(1
 O 50007 1 delay=3000 : lamp_rising(35) && !attract
 D 60007 1 : lamp_rising(16) && !attract
 O 50017 1 delay=3000 : lamp_rising(16) && !attract
+F extra-ball 1 : lamp_rising(16) && !attract
+F extra-ball-shaker 1 delay=100 : lamp_rising(16) && !attract
 
 # Shoot Again
 D 60016 1 : coil_falling(1) && lamp(16) && !attract
@@ -104,10 +106,10 @@ F attract-sparkle 1 : attract && !history(200)
 S 200 1 : attract && !history(200)
 
 F flash-flasher 1 cooldown=4000 : coil_rising(6) && !attract
-F flash-shaker 1 cooldown=4000 : coil_rising(6) && !attract
+F flash-shaker 1 delay=100 cooldown=4000 : coil_rising(6) && !attract
 
-F jet 1 : (coil_rising(17) || coil_rising(18) || coil_rising(19)) && !attract
-F jet-shaker 1 : (coil_rising(17) || coil_rising(18) || coil_rising(19)) && !attract
+F jet 1 : (switch_rising(18) || switch_rising(19) || switch_rising(20)) && !attract
+F jet-shaker 1 : (switch_rising(18) || switch_rising(19) || switch_rising(20)) && !attract
 
 F eject-hole 1 : switch_rising(27) && !attract
 

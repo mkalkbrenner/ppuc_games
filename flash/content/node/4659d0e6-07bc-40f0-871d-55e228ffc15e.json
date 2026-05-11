@@ -77,12 +77,12 @@
                         "href": "taxonomy_term\/fx_modes"
                     },
                     "self": {
-                        "href": "_dcd\/taxonomy_term\/69"
+                        "href": "_dcd\/taxonomy_term\/95"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "ee6ebf0b-09cd-466a-84f5-199828282ce2"
+                        "value": "14595871-1c0d-47f7-b2ba-c712ca4e448d"
                     }
                 ]
             }
@@ -126,7 +126,7 @@
     ],
     "changed": [
         {
-            "value": "2026-05-09T09:33:07+00:00",
+            "value": "2026-05-11T11:07:16+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -163,7 +163,7 @@
     ],
     "field_duration": [
         {
-            "value": 800
+            "value": 1400
         }
     ],
     "field_machine_name": [
@@ -173,7 +173,7 @@
     ],
     "field_priority": [
         {
-            "value": 2
+            "value": 5
         }
     ],
     "field_reverse": [
@@ -186,13 +186,8 @@
             "value": 1
         }
     ],
-    "field_speed": [
-        {
-            "value": 800
-        }
-    ],
     "_dcd_metadata": {
-        "export_timestamp": 1778321874,
+        "export_timestamp": 1778503929,
         "sort_key": 372
     }
 }

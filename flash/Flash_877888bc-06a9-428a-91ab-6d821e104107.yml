@@ -422,7 +422,7 @@ ledStripes:
     board: 1
     port: 29
     ledType: RBG
-    brightness: 96
+    brightness: 148
     amount: 94
     lightUp: 0
     afterGlow: 0
@@ -479,18 +479,18 @@ ledStripes:
         name: flash-flasher
         description: 'Flash Flasher'
         color: 0000FF
-        duration: 800
-        effect: 24
+        duration: 1400
+        effect: 50
         reverse: 0
         segment: 1
-        speed: 800
+        speed: 0
         mode: 0
-        priority: 2
+        priority: 5
         repeat: 0
       -
         name: attract-sparkle
         description: 'Attract Sparkle'
-        color: '935100'
+        color: 6FD900
         duration: 0
         effect: 23
         reverse: 0
@@ -504,18 +504,18 @@ ledStripes:
         description: Spinner
         color: FEFFFF
         duration: 2000
-        effect: 38
+        effect: 16
         reverse: 0
         segment: 1
-        speed: 1200
+        speed: 1000
         mode: 0
-        priority: 2
+        priority: 3
         repeat: 0
       -
         name: jet
         description: Jet
         color: FEFB00
-        duration: 300
+        duration: 200
         effect: 0
         reverse: 0
         segment: 1
@@ -526,26 +526,38 @@ ledStripes:
       -
         name: top-rollover
         description: 'Top Rollovers'
-        color: FEFFFF
-        duration: 1000
-        effect: 46
+        color: 40FFFF
+        duration: 1500
+        effect: 23
         reverse: 0
         segment: 1
         speed: 0
         mode: 0
-        priority: 2
+        priority: 3
         repeat: 0
       -
         name: eject-hole
         description: 'Eject Hole'
-        color: E94C49
+        color: 00DF00
         duration: 2000
         effect: 2
         reverse: 0
         segment: 1
+        speed: 3000
+        mode: 0
+        priority: 3
+        repeat: 0
+      -
+        name: extra-ball
+        description: 'Extra Ball'
+        color: 00FF00
+        duration: 3000
+        effect: 49
+        reverse: 0
+        segment: 1
         speed: 0
         mode: 0
-        priority: 2
+        priority: 4
         repeat: 0
   -
     description: 'Backboard & Bumpers'
@@ -1328,19 +1340,19 @@ pwmOutput:
     holdPower: 0
     holdPowerActivationTime: 0
     minPulseTime: 0
-    maxPulseTime: 0
+    maxPulseTime: 2000
     fastFlipSwitch: 0
     effects:
       -
         name: flash-shaker
         description: 'Flash Shaker'
-        duration: 1000
+        duration: 800
         effect: 1
-        frequency: 10
-        maxIntensity: 164
+        frequency: 8
+        maxIntensity: 192
         minIntensity: 72
         mode: 0
-        priority: 1
+        priority: 2
         repeat: 0
       -
         name: jet-shaker
@@ -1348,8 +1360,19 @@ pwmOutput:
         duration: 200
         effect: 3
         frequency: 10
-        maxIntensity: 148
+        maxIntensity: 192
         minIntensity: 0
+        mode: 0
+        priority: 1
+        repeat: 0
+      -
+        name: extra-ball-shaker
+        description: 'Extra Ball Shaker'
+        duration: 800
+        effect: 1
+        frequency: 5
+        maxIntensity: 128
+        minIntensity: 32
         mode: 0
         priority: 1
         repeat: 0

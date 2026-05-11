@@ -126,7 +126,7 @@
     ],
     "changed": [
         {
-            "value": "2026-05-09T10:16:20+00:00",
+            "value": "2026-05-10T20:32:24+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -157,7 +157,7 @@
     ],
     "field_color": [
         {
-            "color": "E94C49",
+            "color": "00DF00",
             "opacity": null
         }
     ],
@@ -173,7 +173,7 @@
     ],
     "field_priority": [
         {
-            "value": 2
+            "value": 3
         }
     ],
     "field_reverse": [
@@ -186,8 +186,13 @@
             "value": 1
         }
     ],
+    "field_speed": [
+        {
+            "value": 3000
+        }
+    ],
     "_dcd_metadata": {
-        "export_timestamp": 1778321874,
+        "export_timestamp": 1778503929,
         "sort_key": 379
     }
 }
