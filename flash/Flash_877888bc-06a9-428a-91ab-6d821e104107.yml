@@ -38,6 +38,7 @@ switches:
     port: 5
     debounce: 10
     debounceMode: standard
+    button: true
   -
     description: 'Right Coin Switch'
     number: 4
@@ -45,6 +46,7 @@ switches:
     port: 6
     debounce: 10
     debounceMode: standard
+    button: true
   -
     description: 'Center Coin Switch'
     number: 5
@@ -52,6 +54,7 @@ switches:
     port: 7
     debounce: 10
     debounceMode: standard
+    button: true
   -
     description: 'Left Coin Switch'
     number: 6
@@ -59,6 +62,7 @@ switches:
     port: 8
     debounce: 10
     debounceMode: standard
+    button: true
   -
     description: 'Slam Tilt'
     number: 7
@@ -367,6 +371,7 @@ switches:
     port: 3
     debounce: 3
     debounceMode: fastFlip
+    button: true
   -
     description: 'Right Upper Flipper Button'
     number: 202
@@ -374,6 +379,7 @@ switches:
     port: 3
     debounce: 3
     debounceMode: fastFlip
+    button: true
   -
     description: 'Right Flipper Button'
     number: 203
@@ -381,6 +387,7 @@ switches:
     port: 3
     debounce: 3
     debounceMode: fastFlip
+    button: true
   -
     description: Enter
     number: 243
@@ -388,6 +395,7 @@ switches:
     port: 15
     debounce: 10
     debounceMode: standard
+    button: true
   -
     description: 'Sound Diag'
     number: 244
@@ -395,6 +403,7 @@ switches:
     port: 11
     debounce: 10
     debounceMode: standard
+    button: true
   -
     description: 'CPU Diag'
     number: 245
@@ -402,6 +411,7 @@ switches:
     port: 12
     debounce: 10
     debounceMode: standard
+    button: true
   -
     description: 'Up Down'
     number: 246
@@ -409,6 +419,7 @@ switches:
     port: 13
     debounce: 10
     debounceMode: standard
+    button: true
   -
     description: Advance
     number: 247
@@ -416,6 +427,7 @@ switches:
     port: 14
     debounce: 10
     debounceMode: standard
+    button: true
 ledStripes:
   -
     description: Cabinet
@@ -1213,6 +1225,7 @@ pwmOutput:
     maxPulseTime: 150
     fastFlipSwitch: 0
     effects: {  }
+    ballSearch: true
   -
     description: '5-Bank 4, 5 (Bottom) Reset'
     type: coil
@@ -1226,6 +1239,7 @@ pwmOutput:
     maxPulseTime: 150
     fastFlipSwitch: 0
     effects: {  }
+    ballSearch: true
   -
     description: '3-Bank Reset'
     type: coil
@@ -1239,6 +1253,7 @@ pwmOutput:
     maxPulseTime: 150
     fastFlipSwitch: 0
     effects: {  }
+    ballSearch: true
   -
     description: 'Eject Hole'
     type: coil
@@ -1252,6 +1267,7 @@ pwmOutput:
     maxPulseTime: 150
     fastFlipSwitch: 0
     effects: {  }
+    ballSearch: true
   -
     description: 'Credit Knocker'
     type: coil
@@ -1278,6 +1294,7 @@ pwmOutput:
     maxPulseTime: 150
     fastFlipSwitch: 19
     effects: {  }
+    ballSearch: true
   -
     description: 'Left Jet Bumper'
     type: coil
@@ -1291,6 +1308,7 @@ pwmOutput:
     maxPulseTime: 150
     fastFlipSwitch: 18
     effects: {  }
+    ballSearch: true
   -
     description: 'Jet Bumper (Lower)'
     type: coil
@@ -1304,6 +1322,7 @@ pwmOutput:
     maxPulseTime: 150
     fastFlipSwitch: 20
     effects: {  }
+    ballSearch: true
   -
     description: 'Right Kicker'
     type: coil
@@ -1317,6 +1336,7 @@ pwmOutput:
     maxPulseTime: 150
     fastFlipSwitch: 42
     effects: {  }
+    ballSearch: true
   -
     description: 'Left Kicker'
     type: coil
@@ -1330,6 +1350,7 @@ pwmOutput:
     maxPulseTime: 150
     fastFlipSwitch: 41
     effects: {  }
+    ballSearch: true
   -
     description: Shaker
     type: shaker

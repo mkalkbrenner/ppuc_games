@@ -144,7 +144,7 @@
     ],
     "changed": [
         {
-            "value": "2025-03-03T18:37:05+00:00",
+            "value": "2026-06-14T11:33:07+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -171,6 +171,11 @@
         {
             "value": true,
             "lang": "en"
+        }
+    ],
+    "field_ball_search": [
+        {
+            "value": true
         }
     ],
     "field_max_pulse_time": [
@@ -201,7 +206,7 @@
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1778503929,
+        "export_timestamp": 1781436836,
         "sort_key": 15
     }
 }
