@@ -1,0 +1,170 @@
+{
+    "_links": {
+        "type": {
+            "href": "node\/rule"
+        },
+        "self": {
+            "href": "_dcd\/node\/398"
+        }
+    },
+    "nid": [
+        {
+            "value": 398
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c1b4e043-91f3-4068-96e5-0bdcdf1df79e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "rule"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2026-06-28T11:37:42+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "relation\/node\/rule\/revision_uid": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "user\/user"
+                    },
+                    "self": {
+                        "href": "_dcd\/user\/2"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f7760c1e-2497-482d-8e95-dd7f4f5e02e3"
+                    }
+                ]
+            }
+        ],
+        "relation\/node\/rule\/uid": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "user\/user"
+                    },
+                    "self": {
+                        "href": "_dcd\/user\/2"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f7760c1e-2497-482d-8e95-dd7f4f5e02e3"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "relation\/node\/rule\/field_game": [
+            {
+                "_links": {
+                    "type": {
+                        "href": "node\/game"
+                    },
+                    "self": {
+                        "href": "_dcd\/node\/195"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "877888bc-06a9-428a-91ab-6d821e104107"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Attract",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2026-06-28T11:37:42+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2026-06-28T12:39:39+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_enabled": [
+        {
+            "value": true
+        }
+    ],
+    "field_rules_blocks": [
+        {
+            "value": "{\n  \"blocks\": {\n    \"languageVersion\": 0,\n    \"blocks\": [\n      {\n        \"type\": \"ppuc_on_rules_update\",\n        \"id\": \"b676\",\n        \"x\": 20,\n        \"y\": 20,\n        \"inputs\": {\n          \"DO\": {\n            \"block\": {\n              \"type\": \"controls_if\",\n              \"id\": \"b675\",\n              \"inputs\": {\n                \"IF0\": {\n                  \"block\": {\n                    \"type\": \"logic_operation\",\n                    \"id\": \"b671\",\n                    \"fields\": {\n                      \"OP\": \"AND\"\n                    },\n                    \"inputs\": {\n                      \"A\": {\n                        \"block\": {\n                          \"type\": \"ppuc_attract_mode\",\n                          \"id\": \"b667\"\n                        }\n                      },\n                      \"B\": {\n                        \"block\": {\n                          \"type\": \"ppuc_cooldown\",\n                          \"id\": \"b670\",\n                          \"inputs\": {\n                            \"NAME\": {\n                              \"block\": {\n                                \"type\": \"text\",\n                                \"id\": \"b668\",\n                                \"fields\": {\n                                  \"TEXT\": \"attract sparkle effect\"\n                                }\n                              }\n                            },\n                            \"DURATION\": {\n                              \"block\": {\n                                \"type\": \"math_number\",\n                                \"id\": \"b669\",\n                                \"fields\": {\n                                  \"NUM\": 60000\n                                }\n                              }\n                            }\n                          }\n                        }\n                      }\n                    }\n                  }\n                },\n                \"DO0\": {\n                  \"block\": {\n                    \"type\": \"ppuc_effect_trigger\",\n                    \"id\": \"b674\",\n                    \"inputs\": {\n                      \"ID\": {\n                        \"block\": {\n                          \"type\": \"text\",\n                          \"id\": \"b672\",\n                          \"fields\": {\n                            \"TEXT\": \"attract-sparkle\"\n                          }\n                        }\n                      },\n                      \"VALUE\": {\n                        \"block\": {\n                          \"type\": \"math_number\",\n                          \"id\": \"b673\",\n                          \"fields\": {\n                            \"NUM\": 1\n                          }\n                        }\n                      }\n                    }\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    ]\n  }\n}\n"
+        }
+    ],
+    "field_rules_editor_mode": [
+        {
+            "value": "blockly"
+        }
+    ],
+    "field_rules_lua": [
+        {
+            "value": "function ppuc.onRulesUpdate()\n  if ppuc.attractMode() and ppuc.onlyOnceEvery(\"attract sparkle effect\", 60000) then\n    ppuc.effectTrigger(\"attract-sparkle\", 1)\n  end\nend\n"
+        }
+    ],
+    "field_weight": [
+        {
+            "value": 300
+        }
+    ],
+    "_dcd_metadata": {
+        "export_timestamp": 1782650388,
+        "sort_key": 398
+    }
+}

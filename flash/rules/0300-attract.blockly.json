@@ -1,0 +1,92 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "ppuc_on_rules_update",
+        "id": "b676",
+        "x": 20,
+        "y": 20,
+        "inputs": {
+          "DO": {
+            "block": {
+              "type": "controls_if",
+              "id": "b675",
+              "inputs": {
+                "IF0": {
+                  "block": {
+                    "type": "logic_operation",
+                    "id": "b671",
+                    "fields": {
+                      "OP": "AND"
+                    },
+                    "inputs": {
+                      "A": {
+                        "block": {
+                          "type": "ppuc_attract_mode",
+                          "id": "b667"
+                        }
+                      },
+                      "B": {
+                        "block": {
+                          "type": "ppuc_cooldown",
+                          "id": "b670",
+                          "inputs": {
+                            "NAME": {
+                              "block": {
+                                "type": "text",
+                                "id": "b668",
+                                "fields": {
+                                  "TEXT": "attract sparkle effect"
+                                }
+                              }
+                            },
+                            "DURATION": {
+                              "block": {
+                                "type": "math_number",
+                                "id": "b669",
+                                "fields": {
+                                  "NUM": 60000
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "DO0": {
+                  "block": {
+                    "type": "ppuc_effect_trigger",
+                    "id": "b674",
+                    "inputs": {
+                      "ID": {
+                        "block": {
+                          "type": "text",
+                          "id": "b672",
+                          "fields": {
+                            "TEXT": "attract-sparkle"
+                          }
+                        }
+                      },
+                      "VALUE": {
+                        "block": {
+                          "type": "math_number",
+                          "id": "b673",
+                          "fields": {
+                            "NUM": 1
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

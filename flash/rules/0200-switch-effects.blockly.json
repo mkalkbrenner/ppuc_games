@@ -1,0 +1,621 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "ppuc_on_switch_changed",
+        "id": "b666",
+        "x": 20,
+        "y": 20,
+        "inputs": {
+          "DO": {
+            "block": {
+              "type": "controls_if",
+              "id": "b665",
+              "inputs": {
+                "IF0": {
+                  "block": {
+                    "type": "logic_negate",
+                    "id": "b632",
+                    "inputs": {
+                      "BOOL": {
+                        "block": {
+                          "type": "ppuc_attract_mode",
+                          "id": "b631"
+                        }
+                      }
+                    }
+                  }
+                },
+                "DO0": {
+                  "block": {
+                    "type": "controls_if",
+                    "id": "b637",
+                    "inputs": {
+                      "IF0": {
+                        "block": {
+                          "type": "logic_operation",
+                          "id": "b611",
+                          "fields": {
+                            "OP": "OR"
+                          },
+                          "inputs": {
+                            "A": {
+                              "block": {
+                                "type": "logic_operation",
+                                "id": "b605",
+                                "fields": {
+                                  "OP": "AND"
+                                },
+                                "inputs": {
+                                  "A": {
+                                    "block": {
+                                      "type": "ppuc_switch_event_matches",
+                                      "id": "b602",
+                                      "fields": {
+                                        "STATE": "1"
+                                      },
+                                      "inputs": {
+                                        "NUMBER": {
+                                          "block": {
+                                            "type": "math_number",
+                                            "id": "b601",
+                                            "fields": {
+                                              "NUM": 43
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "B": {
+                                    "block": {
+                                      "type": "ppuc_lamp_state",
+                                      "id": "b604",
+                                      "inputs": {
+                                        "NUMBER": {
+                                          "block": {
+                                            "type": "math_number",
+                                            "id": "b603",
+                                            "fields": {
+                                              "NUM": 21
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "B": {
+                              "block": {
+                                "type": "logic_operation",
+                                "id": "b610",
+                                "fields": {
+                                  "OP": "AND"
+                                },
+                                "inputs": {
+                                  "A": {
+                                    "block": {
+                                      "type": "ppuc_switch_event_matches",
+                                      "id": "b607",
+                                      "fields": {
+                                        "STATE": "1"
+                                      },
+                                      "inputs": {
+                                        "NUMBER": {
+                                          "block": {
+                                            "type": "math_number",
+                                            "id": "b606",
+                                            "fields": {
+                                              "NUM": 46
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "B": {
+                                    "block": {
+                                      "type": "ppuc_lamp_state",
+                                      "id": "b609",
+                                      "inputs": {
+                                        "NUMBER": {
+                                          "block": {
+                                            "type": "math_number",
+                                            "id": "b608",
+                                            "fields": {
+                                              "NUM": 22
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "DO0": {
+                        "block": {
+                          "type": "ppuc_pup_trigger",
+                          "id": "b636",
+                          "inputs": {
+                            "SOURCE": {
+                              "block": {
+                                "type": "text",
+                                "id": "b633",
+                                "fields": {
+                                  "TEXT": "D"
+                                }
+                              }
+                            },
+                            "ID": {
+                              "block": {
+                                "type": "math_number",
+                                "id": "b634",
+                                "fields": {
+                                  "NUM": 60017
+                                }
+                              }
+                            },
+                            "VALUE": {
+                              "block": {
+                                "type": "math_number",
+                                "id": "b635",
+                                "fields": {
+                                  "NUM": 1
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "next": {
+                      "block": {
+                        "type": "controls_if",
+                        "id": "b644",
+                        "inputs": {
+                          "IF0": {
+                            "block": {
+                              "type": "logic_operation",
+                              "id": "b619",
+                              "fields": {
+                                "OP": "OR"
+                              },
+                              "inputs": {
+                                "A": {
+                                  "block": {
+                                    "type": "logic_operation",
+                                    "id": "b618",
+                                    "fields": {
+                                      "OP": "OR"
+                                    },
+                                    "inputs": {
+                                      "A": {
+                                        "block": {
+                                          "type": "ppuc_switch_event_matches",
+                                          "id": "b613",
+                                          "fields": {
+                                            "STATE": "1"
+                                          },
+                                          "inputs": {
+                                            "NUMBER": {
+                                              "block": {
+                                                "type": "math_number",
+                                                "id": "b612",
+                                                "fields": {
+                                                  "NUM": 18
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "B": {
+                                        "block": {
+                                          "type": "ppuc_switch_event_matches",
+                                          "id": "b615",
+                                          "fields": {
+                                            "STATE": "1"
+                                          },
+                                          "inputs": {
+                                            "NUMBER": {
+                                              "block": {
+                                                "type": "math_number",
+                                                "id": "b614",
+                                                "fields": {
+                                                  "NUM": 19
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "B": {
+                                  "block": {
+                                    "type": "ppuc_switch_event_matches",
+                                    "id": "b617",
+                                    "fields": {
+                                      "STATE": "1"
+                                    },
+                                    "inputs": {
+                                      "NUMBER": {
+                                        "block": {
+                                          "type": "math_number",
+                                          "id": "b616",
+                                          "fields": {
+                                            "NUM": 20
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "DO0": {
+                            "block": {
+                              "type": "ppuc_effect_trigger",
+                              "id": "b640",
+                              "inputs": {
+                                "ID": {
+                                  "block": {
+                                    "type": "text",
+                                    "id": "b638",
+                                    "fields": {
+                                      "TEXT": "jet"
+                                    }
+                                  }
+                                },
+                                "VALUE": {
+                                  "block": {
+                                    "type": "math_number",
+                                    "id": "b639",
+                                    "fields": {
+                                      "NUM": 1
+                                    }
+                                  }
+                                }
+                              },
+                              "next": {
+                                "block": {
+                                  "type": "ppuc_effect_trigger",
+                                  "id": "b643",
+                                  "inputs": {
+                                    "ID": {
+                                      "block": {
+                                        "type": "text",
+                                        "id": "b641",
+                                        "fields": {
+                                          "TEXT": "jet-shaker"
+                                        }
+                                      }
+                                    },
+                                    "VALUE": {
+                                      "block": {
+                                        "type": "math_number",
+                                        "id": "b642",
+                                        "fields": {
+                                          "NUM": 1
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "next": {
+                          "block": {
+                            "type": "controls_if",
+                            "id": "b650",
+                            "inputs": {
+                              "IF0": {
+                                "block": {
+                                  "type": "ppuc_switch_event_matches",
+                                  "id": "b646",
+                                  "fields": {
+                                    "STATE": "1"
+                                  },
+                                  "inputs": {
+                                    "NUMBER": {
+                                      "block": {
+                                        "type": "math_number",
+                                        "id": "b645",
+                                        "fields": {
+                                          "NUM": 27
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "DO0": {
+                                "block": {
+                                  "type": "ppuc_effect_trigger",
+                                  "id": "b649",
+                                  "inputs": {
+                                    "ID": {
+                                      "block": {
+                                        "type": "text",
+                                        "id": "b647",
+                                        "fields": {
+                                          "TEXT": "eject-hole"
+                                        }
+                                      }
+                                    },
+                                    "VALUE": {
+                                      "block": {
+                                        "type": "math_number",
+                                        "id": "b648",
+                                        "fields": {
+                                          "NUM": 1
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "next": {
+                              "block": {
+                                "type": "controls_if",
+                                "id": "b660",
+                                "inputs": {
+                                  "IF0": {
+                                    "block": {
+                                      "type": "logic_operation",
+                                      "id": "b656",
+                                      "fields": {
+                                        "OP": "AND"
+                                      },
+                                      "inputs": {
+                                        "A": {
+                                          "block": {
+                                            "type": "ppuc_switch_event_matches",
+                                            "id": "b652",
+                                            "fields": {
+                                              "STATE": "1"
+                                            },
+                                            "inputs": {
+                                              "NUMBER": {
+                                                "block": {
+                                                  "type": "math_number",
+                                                  "id": "b651",
+                                                  "fields": {
+                                                    "NUM": 17
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "B": {
+                                          "block": {
+                                            "type": "ppuc_cooldown",
+                                            "id": "b655",
+                                            "inputs": {
+                                              "NAME": {
+                                                "block": {
+                                                  "type": "text",
+                                                  "id": "b653",
+                                                  "fields": {
+                                                    "TEXT": "spinner effect"
+                                                  }
+                                                }
+                                              },
+                                              "DURATION": {
+                                                "block": {
+                                                  "type": "math_number",
+                                                  "id": "b654",
+                                                  "fields": {
+                                                    "NUM": 2000
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "DO0": {
+                                    "block": {
+                                      "type": "ppuc_effect_trigger",
+                                      "id": "b659",
+                                      "inputs": {
+                                        "ID": {
+                                          "block": {
+                                            "type": "text",
+                                            "id": "b657",
+                                            "fields": {
+                                              "TEXT": "spinner"
+                                            }
+                                          }
+                                        },
+                                        "VALUE": {
+                                          "block": {
+                                            "type": "math_number",
+                                            "id": "b658",
+                                            "fields": {
+                                              "NUM": 1
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "next": {
+                                  "block": {
+                                    "type": "controls_if",
+                                    "id": "b664",
+                                    "inputs": {
+                                      "IF0": {
+                                        "block": {
+                                          "type": "logic_operation",
+                                          "id": "b630",
+                                          "fields": {
+                                            "OP": "OR"
+                                          },
+                                          "inputs": {
+                                            "A": {
+                                              "block": {
+                                                "type": "logic_operation",
+                                                "id": "b629",
+                                                "fields": {
+                                                  "OP": "OR"
+                                                },
+                                                "inputs": {
+                                                  "A": {
+                                                    "block": {
+                                                      "type": "logic_operation",
+                                                      "id": "b628",
+                                                      "fields": {
+                                                        "OP": "OR"
+                                                      },
+                                                      "inputs": {
+                                                        "A": {
+                                                          "block": {
+                                                            "type": "ppuc_switch_event_matches",
+                                                            "id": "b621",
+                                                            "fields": {
+                                                              "STATE": "1"
+                                                            },
+                                                            "inputs": {
+                                                              "NUMBER": {
+                                                                "block": {
+                                                                  "type": "math_number",
+                                                                  "id": "b620",
+                                                                  "fields": {
+                                                                    "NUM": 12
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        },
+                                                        "B": {
+                                                          "block": {
+                                                            "type": "ppuc_switch_event_matches",
+                                                            "id": "b623",
+                                                            "fields": {
+                                                              "STATE": "1"
+                                                            },
+                                                            "inputs": {
+                                                              "NUMBER": {
+                                                                "block": {
+                                                                  "type": "math_number",
+                                                                  "id": "b622",
+                                                                  "fields": {
+                                                                    "NUM": 13
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "B": {
+                                                    "block": {
+                                                      "type": "ppuc_switch_event_matches",
+                                                      "id": "b625",
+                                                      "fields": {
+                                                        "STATE": "1"
+                                                      },
+                                                      "inputs": {
+                                                        "NUMBER": {
+                                                          "block": {
+                                                            "type": "math_number",
+                                                            "id": "b624",
+                                                            "fields": {
+                                                              "NUM": 14
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "B": {
+                                              "block": {
+                                                "type": "ppuc_switch_event_matches",
+                                                "id": "b627",
+                                                "fields": {
+                                                  "STATE": "1"
+                                                },
+                                                "inputs": {
+                                                  "NUMBER": {
+                                                    "block": {
+                                                      "type": "math_number",
+                                                      "id": "b626",
+                                                      "fields": {
+                                                        "NUM": 15
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "DO0": {
+                                        "block": {
+                                          "type": "ppuc_effect_trigger",
+                                          "id": "b663",
+                                          "inputs": {
+                                            "ID": {
+                                              "block": {
+                                                "type": "text",
+                                                "id": "b661",
+                                                "fields": {
+                                                  "TEXT": "top-rollover"
+                                                }
+                                              }
+                                            },
+                                            "VALUE": {
+                                              "block": {
+                                                "type": "math_number",
+                                                "id": "b662",
+                                                "fields": {
+                                                  "NUM": 1
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

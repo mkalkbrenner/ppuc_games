@@ -1,0 +1,925 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "ppuc_on_lamp_changed",
+        "id": "b600",
+        "x": 20,
+        "y": 20,
+        "inputs": {
+          "DO": {
+            "block": {
+              "type": "controls_if",
+              "id": "b509",
+              "inputs": {
+                "IF0": {
+                  "block": {
+                    "type": "logic_operation",
+                    "id": "b504",
+                    "fields": {
+                      "OP": "AND"
+                    },
+                    "inputs": {
+                      "A": {
+                        "block": {
+                          "type": "logic_operation",
+                          "id": "b503",
+                          "fields": {
+                            "OP": "AND"
+                          },
+                          "inputs": {
+                            "A": {
+                              "block": {
+                                "type": "ppuc_lamp_event_matches",
+                                "id": "b498",
+                                "fields": {
+                                  "STATE": "1"
+                                },
+                                "inputs": {
+                                  "NUMBER": {
+                                    "block": {
+                                      "type": "math_number",
+                                      "id": "b497",
+                                      "fields": {
+                                        "NUM": 5
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "B": {
+                              "block": {
+                                "type": "ppuc_attract_mode",
+                                "id": "b499"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "B": {
+                        "block": {
+                          "type": "ppuc_cooldown",
+                          "id": "b502",
+                          "inputs": {
+                            "NAME": {
+                              "block": {
+                                "type": "text",
+                                "id": "b500",
+                                "fields": {
+                                  "TEXT": "flash attract dmd"
+                                }
+                              }
+                            },
+                            "DURATION": {
+                              "block": {
+                                "type": "math_number",
+                                "id": "b501",
+                                "fields": {
+                                  "NUM": 20000
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "DO0": {
+                  "block": {
+                    "type": "ppuc_pup_trigger",
+                    "id": "b508",
+                    "inputs": {
+                      "SOURCE": {
+                        "block": {
+                          "type": "text",
+                          "id": "b505",
+                          "fields": {
+                            "TEXT": "D"
+                          }
+                        }
+                      },
+                      "ID": {
+                        "block": {
+                          "type": "math_number",
+                          "id": "b506",
+                          "fields": {
+                            "NUM": 60008
+                          }
+                        }
+                      },
+                      "VALUE": {
+                        "block": {
+                          "type": "math_number",
+                          "id": "b507",
+                          "fields": {
+                            "NUM": 1
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "next": {
+                "block": {
+                  "type": "controls_if",
+                  "id": "b599",
+                  "inputs": {
+                    "IF0": {
+                      "block": {
+                        "type": "logic_negate",
+                        "id": "b598",
+                        "inputs": {
+                          "BOOL": {
+                            "block": {
+                              "type": "ppuc_attract_mode",
+                              "id": "b597"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "DO0": {
+                      "block": {
+                        "type": "controls_if",
+                        "id": "b516",
+                        "inputs": {
+                          "IF0": {
+                            "block": {
+                              "type": "ppuc_lamp_event_matches",
+                              "id": "b511",
+                              "fields": {
+                                "STATE": "1"
+                              },
+                              "inputs": {
+                                "NUMBER": {
+                                  "block": {
+                                    "type": "math_number",
+                                    "id": "b510",
+                                    "fields": {
+                                      "NUM": 35
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "DO0": {
+                            "block": {
+                              "type": "ppuc_after",
+                              "id": "b515",
+                              "inputs": {
+                                "MS": {
+                                  "block": {
+                                    "type": "math_number",
+                                    "id": "b514",
+                                    "fields": {
+                                      "NUM": 3000
+                                    }
+                                  }
+                                },
+                                "DO": {
+                                  "block": {
+                                    "type": "ppuc_speech",
+                                    "id": "b513",
+                                    "inputs": {
+                                      "TEXT": {
+                                        "block": {
+                                          "type": "text",
+                                          "id": "b512",
+                                          "fields": {
+                                            "TEXT": "Get the extra ball!"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "next": {
+                          "block": {
+                            "type": "controls_if",
+                            "id": "b537",
+                            "inputs": {
+                              "IF0": {
+                                "block": {
+                                  "type": "ppuc_lamp_event_matches",
+                                  "id": "b518",
+                                  "fields": {
+                                    "STATE": "1"
+                                  },
+                                  "inputs": {
+                                    "NUMBER": {
+                                      "block": {
+                                        "type": "math_number",
+                                        "id": "b517",
+                                        "fields": {
+                                          "NUM": 16
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "DO0": {
+                                "block": {
+                                  "type": "ppuc_pup_trigger",
+                                  "id": "b522",
+                                  "inputs": {
+                                    "SOURCE": {
+                                      "block": {
+                                        "type": "text",
+                                        "id": "b519",
+                                        "fields": {
+                                          "TEXT": "D"
+                                        }
+                                      }
+                                    },
+                                    "ID": {
+                                      "block": {
+                                        "type": "math_number",
+                                        "id": "b520",
+                                        "fields": {
+                                          "NUM": 60007
+                                        }
+                                      }
+                                    },
+                                    "VALUE": {
+                                      "block": {
+                                        "type": "math_number",
+                                        "id": "b521",
+                                        "fields": {
+                                          "NUM": 1
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "next": {
+                                    "block": {
+                                      "type": "ppuc_after",
+                                      "id": "b526",
+                                      "inputs": {
+                                        "MS": {
+                                          "block": {
+                                            "type": "math_number",
+                                            "id": "b525",
+                                            "fields": {
+                                              "NUM": 3000
+                                            }
+                                          }
+                                        },
+                                        "DO": {
+                                          "block": {
+                                            "type": "ppuc_speech",
+                                            "id": "b524",
+                                            "inputs": {
+                                              "TEXT": {
+                                                "block": {
+                                                  "type": "text",
+                                                  "id": "b523",
+                                                  "fields": {
+                                                    "TEXT": "Extra ball!"
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "next": {
+                                        "block": {
+                                          "type": "ppuc_effect_trigger",
+                                          "id": "b529",
+                                          "inputs": {
+                                            "ID": {
+                                              "block": {
+                                                "type": "text",
+                                                "id": "b527",
+                                                "fields": {
+                                                  "TEXT": "extra-ball"
+                                                }
+                                              }
+                                            },
+                                            "VALUE": {
+                                              "block": {
+                                                "type": "math_number",
+                                                "id": "b528",
+                                                "fields": {
+                                                  "NUM": 1
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "next": {
+                                            "block": {
+                                              "type": "controls_if",
+                                              "id": "b536",
+                                              "inputs": {
+                                                "IF0": {
+                                                  "block": {
+                                                    "type": "ppuc_cooldown",
+                                                    "id": "b532",
+                                                    "inputs": {
+                                                      "NAME": {
+                                                        "block": {
+                                                          "type": "text",
+                                                          "id": "b530",
+                                                          "fields": {
+                                                            "TEXT": "extra ball shaker effect"
+                                                          }
+                                                        }
+                                                      },
+                                                      "DURATION": {
+                                                        "block": {
+                                                          "type": "math_number",
+                                                          "id": "b531",
+                                                          "fields": {
+                                                            "NUM": 4000
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "DO0": {
+                                                  "block": {
+                                                    "type": "ppuc_effect_trigger",
+                                                    "id": "b535",
+                                                    "inputs": {
+                                                      "ID": {
+                                                        "block": {
+                                                          "type": "text",
+                                                          "id": "b533",
+                                                          "fields": {
+                                                            "TEXT": "extra-ball-shaker"
+                                                          }
+                                                        }
+                                                      },
+                                                      "VALUE": {
+                                                        "block": {
+                                                          "type": "math_number",
+                                                          "id": "b534",
+                                                          "fields": {
+                                                            "NUM": 1
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "next": {
+                              "block": {
+                                "type": "controls_if",
+                                "id": "b550",
+                                "inputs": {
+                                  "IF0": {
+                                    "block": {
+                                      "type": "ppuc_lamp_event_matches",
+                                      "id": "b539",
+                                      "fields": {
+                                        "STATE": "1"
+                                      },
+                                      "inputs": {
+                                        "NUMBER": {
+                                          "block": {
+                                            "type": "math_number",
+                                            "id": "b538",
+                                            "fields": {
+                                              "NUM": 14
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "DO0": {
+                                    "block": {
+                                      "type": "ppuc_after",
+                                      "id": "b545",
+                                      "inputs": {
+                                        "MS": {
+                                          "block": {
+                                            "type": "math_number",
+                                            "id": "b544",
+                                            "fields": {
+                                              "NUM": 100
+                                            }
+                                          }
+                                        },
+                                        "DO": {
+                                          "block": {
+                                            "type": "ppuc_pup_trigger",
+                                            "id": "b543",
+                                            "inputs": {
+                                              "SOURCE": {
+                                                "block": {
+                                                  "type": "text",
+                                                  "id": "b540",
+                                                  "fields": {
+                                                    "TEXT": "D"
+                                                  }
+                                                }
+                                              },
+                                              "ID": {
+                                                "block": {
+                                                  "type": "math_number",
+                                                  "id": "b541",
+                                                  "fields": {
+                                                    "NUM": 60005
+                                                  }
+                                                }
+                                              },
+                                              "VALUE": {
+                                                "block": {
+                                                  "type": "math_number",
+                                                  "id": "b542",
+                                                  "fields": {
+                                                    "NUM": 1
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "next": {
+                                        "block": {
+                                          "type": "ppuc_after",
+                                          "id": "b549",
+                                          "inputs": {
+                                            "MS": {
+                                              "block": {
+                                                "type": "math_number",
+                                                "id": "b548",
+                                                "fields": {
+                                                  "NUM": 3000
+                                                }
+                                              }
+                                            },
+                                            "DO": {
+                                              "block": {
+                                                "type": "ppuc_speech",
+                                                "id": "b547",
+                                                "inputs": {
+                                                  "TEXT": {
+                                                    "block": {
+                                                      "type": "text",
+                                                      "id": "b546",
+                                                      "fields": {
+                                                        "TEXT": "Double bonus activated!"
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "next": {
+                                  "block": {
+                                    "type": "controls_if",
+                                    "id": "b561",
+                                    "inputs": {
+                                      "IF0": {
+                                        "block": {
+                                          "type": "ppuc_lamp_event_matches",
+                                          "id": "b552",
+                                          "fields": {
+                                            "STATE": "1"
+                                          },
+                                          "inputs": {
+                                            "NUMBER": {
+                                              "block": {
+                                                "type": "math_number",
+                                                "id": "b551",
+                                                "fields": {
+                                                  "NUM": 15
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "DO0": {
+                                        "block": {
+                                          "type": "ppuc_pup_trigger",
+                                          "id": "b556",
+                                          "inputs": {
+                                            "SOURCE": {
+                                              "block": {
+                                                "type": "text",
+                                                "id": "b553",
+                                                "fields": {
+                                                  "TEXT": "D"
+                                                }
+                                              }
+                                            },
+                                            "ID": {
+                                              "block": {
+                                                "type": "math_number",
+                                                "id": "b554",
+                                                "fields": {
+                                                  "NUM": 60006
+                                                }
+                                              }
+                                            },
+                                            "VALUE": {
+                                              "block": {
+                                                "type": "math_number",
+                                                "id": "b555",
+                                                "fields": {
+                                                  "NUM": 1
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "next": {
+                                            "block": {
+                                              "type": "ppuc_after",
+                                              "id": "b560",
+                                              "inputs": {
+                                                "MS": {
+                                                  "block": {
+                                                    "type": "math_number",
+                                                    "id": "b559",
+                                                    "fields": {
+                                                      "NUM": 3000
+                                                    }
+                                                  }
+                                                },
+                                                "DO": {
+                                                  "block": {
+                                                    "type": "ppuc_speech",
+                                                    "id": "b558",
+                                                    "inputs": {
+                                                      "TEXT": {
+                                                        "block": {
+                                                          "type": "text",
+                                                          "id": "b557",
+                                                          "fields": {
+                                                            "TEXT": "Tripple bonus activated!"
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "next": {
+                                      "block": {
+                                        "type": "controls_if",
+                                        "id": "b568",
+                                        "inputs": {
+                                          "IF0": {
+                                            "block": {
+                                              "type": "ppuc_lamp_event_matches",
+                                              "id": "b563",
+                                              "fields": {
+                                                "STATE": "1"
+                                              },
+                                              "inputs": {
+                                                "NUMBER": {
+                                                  "block": {
+                                                    "type": "math_number",
+                                                    "id": "b562",
+                                                    "fields": {
+                                                      "NUM": 17
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "DO0": {
+                                            "block": {
+                                              "type": "ppuc_pup_trigger",
+                                              "id": "b567",
+                                              "inputs": {
+                                                "SOURCE": {
+                                                  "block": {
+                                                    "type": "text",
+                                                    "id": "b564",
+                                                    "fields": {
+                                                      "TEXT": "D"
+                                                    }
+                                                  }
+                                                },
+                                                "ID": {
+                                                  "block": {
+                                                    "type": "math_number",
+                                                    "id": "b565",
+                                                    "fields": {
+                                                      "NUM": 60012
+                                                    }
+                                                  }
+                                                },
+                                                "VALUE": {
+                                                  "block": {
+                                                    "type": "math_number",
+                                                    "id": "b566",
+                                                    "fields": {
+                                                      "NUM": 1
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "next": {
+                                          "block": {
+                                            "type": "controls_if",
+                                            "id": "b575",
+                                            "inputs": {
+                                              "IF0": {
+                                                "block": {
+                                                  "type": "ppuc_lamp_event_matches",
+                                                  "id": "b570",
+                                                  "fields": {
+                                                    "STATE": "1"
+                                                  },
+                                                  "inputs": {
+                                                    "NUMBER": {
+                                                      "block": {
+                                                        "type": "math_number",
+                                                        "id": "b569",
+                                                        "fields": {
+                                                          "NUM": 18
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "DO0": {
+                                                "block": {
+                                                  "type": "ppuc_pup_trigger",
+                                                  "id": "b574",
+                                                  "inputs": {
+                                                    "SOURCE": {
+                                                      "block": {
+                                                        "type": "text",
+                                                        "id": "b571",
+                                                        "fields": {
+                                                          "TEXT": "D"
+                                                        }
+                                                      }
+                                                    },
+                                                    "ID": {
+                                                      "block": {
+                                                        "type": "math_number",
+                                                        "id": "b572",
+                                                        "fields": {
+                                                          "NUM": 60013
+                                                        }
+                                                      }
+                                                    },
+                                                    "VALUE": {
+                                                      "block": {
+                                                        "type": "math_number",
+                                                        "id": "b573",
+                                                        "fields": {
+                                                          "NUM": 1
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "next": {
+                                              "block": {
+                                                "type": "controls_if",
+                                                "id": "b582",
+                                                "inputs": {
+                                                  "IF0": {
+                                                    "block": {
+                                                      "type": "ppuc_lamp_event_matches",
+                                                      "id": "b577",
+                                                      "fields": {
+                                                        "STATE": "1"
+                                                      },
+                                                      "inputs": {
+                                                        "NUMBER": {
+                                                          "block": {
+                                                            "type": "math_number",
+                                                            "id": "b576",
+                                                            "fields": {
+                                                              "NUM": 19
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "DO0": {
+                                                    "block": {
+                                                      "type": "ppuc_pup_trigger",
+                                                      "id": "b581",
+                                                      "inputs": {
+                                                        "SOURCE": {
+                                                          "block": {
+                                                            "type": "text",
+                                                            "id": "b578",
+                                                            "fields": {
+                                                              "TEXT": "D"
+                                                            }
+                                                          }
+                                                        },
+                                                        "ID": {
+                                                          "block": {
+                                                            "type": "math_number",
+                                                            "id": "b579",
+                                                            "fields": {
+                                                              "NUM": 60014
+                                                            }
+                                                          }
+                                                        },
+                                                        "VALUE": {
+                                                          "block": {
+                                                            "type": "math_number",
+                                                            "id": "b580",
+                                                            "fields": {
+                                                              "NUM": 1
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "next": {
+                                                  "block": {
+                                                    "type": "controls_if",
+                                                    "id": "b589",
+                                                    "inputs": {
+                                                      "IF0": {
+                                                        "block": {
+                                                          "type": "ppuc_lamp_event_matches",
+                                                          "id": "b584",
+                                                          "fields": {
+                                                            "STATE": "1"
+                                                          },
+                                                          "inputs": {
+                                                            "NUMBER": {
+                                                              "block": {
+                                                                "type": "math_number",
+                                                                "id": "b583",
+                                                                "fields": {
+                                                                  "NUM": 20
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      },
+                                                      "DO0": {
+                                                        "block": {
+                                                          "type": "ppuc_pup_trigger",
+                                                          "id": "b588",
+                                                          "inputs": {
+                                                            "SOURCE": {
+                                                              "block": {
+                                                                "type": "text",
+                                                                "id": "b585",
+                                                                "fields": {
+                                                                  "TEXT": "D"
+                                                                }
+                                                              }
+                                                            },
+                                                            "ID": {
+                                                              "block": {
+                                                                "type": "math_number",
+                                                                "id": "b586",
+                                                                "fields": {
+                                                                  "NUM": 60015
+                                                                }
+                                                              }
+                                                            },
+                                                            "VALUE": {
+                                                              "block": {
+                                                                "type": "math_number",
+                                                                "id": "b587",
+                                                                "fields": {
+                                                                  "NUM": 1
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    "next": {
+                                                      "block": {
+                                                        "type": "controls_if",
+                                                        "id": "b596",
+                                                        "inputs": {
+                                                          "IF0": {
+                                                            "block": {
+                                                              "type": "ppuc_lamp_event_matches",
+                                                              "id": "b591",
+                                                              "fields": {
+                                                                "STATE": "1"
+                                                              },
+                                                              "inputs": {
+                                                                "NUMBER": {
+                                                                  "block": {
+                                                                    "type": "math_number",
+                                                                    "id": "b590",
+                                                                    "fields": {
+                                                                      "NUM": 61
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          },
+                                                          "DO0": {
+                                                            "block": {
+                                                              "type": "ppuc_pup_trigger",
+                                                              "id": "b595",
+                                                              "inputs": {
+                                                                "SOURCE": {
+                                                                  "block": {
+                                                                    "type": "text",
+                                                                    "id": "b592",
+                                                                    "fields": {
+                                                                      "TEXT": "D"
+                                                                    }
+                                                                  }
+                                                                },
+                                                                "ID": {
+                                                                  "block": {
+                                                                    "type": "math_number",
+                                                                    "id": "b593",
+                                                                    "fields": {
+                                                                      "NUM": 60018
+                                                                    }
+                                                                  }
+                                                                },
+                                                                "VALUE": {
+                                                                  "block": {
+                                                                    "type": "math_number",
+                                                                    "id": "b594",
+                                                                    "fields": {
+                                                                      "NUM": 1
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}
